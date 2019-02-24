@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Elinv in Google Translations",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Quod sinit te ad paginam, lectus omnis interpretari illud, et ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Interpres Elinv in Google [Options]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Interpretari website",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Electio locum transferre",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Texts translate",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Linguae para",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Target language:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Source language:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "record",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "quaesitor",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Lineamentum explorationis Google innatum.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Meaning in Google.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Quaerere.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "In Wordreference.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "In quo illud est.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitraduccion",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "For the spell checker go to Firefox -> Add-ons -> Dictionaries \n-Include the dictionary of your choice. \n\nYou can drag this dialog with the mouse. \n\n * DOUBLE CLICK to clean this text.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Monimenta memoriae? Google Translate by ~ Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "linguam translata / s;",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Subsisto multi interpretari X linguis:",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Definitio, synonymis, magis notitia",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Google quaestio",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Definitio de Google",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTraductor",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "lectus",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "linguarum",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "mitte",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Tu modo interpretari possit Verbum\r\nad tempus lectus a",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

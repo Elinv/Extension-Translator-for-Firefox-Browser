@@ -1,0 +1,76 @@
+{
+    "manifest_version": 2,
+    "name": "__MSG_extensionNombre__",
+    "description": "__MSG_extensionDescripcion__",
+    "version": "2.5",
+    "author": "Elinv",
+    "default_locale": "en",
+    "icons": {
+        "256": "ico/firefox.png"
+    },
+    "applications": {
+        "gecko": {
+            "id": "jid1-sllPjYpRBsnPyA@jetpack",
+            "strict_min_version": "57.0"
+        }
+    },
+    "background": {
+        "scripts": [
+            "./scripts/main.js"
+        ]
+    },
+    "content_scripts": [{
+        "matches": [
+            "<all_urls>"
+        ],
+        "js": [
+            "./opciones/opciones.js",
+            "./opciones/traduccion.js",
+            "./scripts/creaElemCorrector.js"
+        ]
+    }],
+    "options_ui": {
+        "page": "./opciones/opciones.html"
+    },
+    "permissions": [
+        "<all_urls>",
+        "notifications",
+        "contextMenus",
+        "tabs",
+        "activeTab",
+        "storage",
+        "menus"
+    ],
+    "web_accessible_resources": [
+        "./ico/firefox.png",
+        "./ico/info.png",
+        "./ico/verde.png",
+        "./ico/Argentina.png",
+        "./ico/firefox.png",
+        "./ico/google.png",
+        "./ico/google1.png",
+        "./ico/selectIN.png",
+        "./ico/selectOUT.png",
+        "./ico/wikipedia.png",
+        "./ico/wordreference.png",
+        "./opciones/traduccion.js",
+        "./opciones/opciones.js",
+        "./panel/multitradScript.js",
+        "./panel/panelIdioma.js",
+        "./panel/panelIdioma.css",
+        "./panel/traduccion.js",
+        "./scripts/creaElemCorrector.js"
+    ],
+    "browser_action": {
+        "default_title": "__MSG_extensionTitleIcon__",
+        "default_icon": "ico/firefox.png"
+    },
+    "commands": {
+        "toggle-feature": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+L"
+            },
+            "description": "Mostrar el corrector ortográfico"
+        }
+    }
+}

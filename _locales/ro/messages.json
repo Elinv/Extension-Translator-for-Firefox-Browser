@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Translator Elinv pe Google",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Permite traducerea întregii pagini sau a textului selectat și multe altele ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Elinv traducător în Google [Opțiuni]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Traduceți pagina web",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Traduceți selecția în loc",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Traduceți texte pe GOOGLE",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Pregătiți Limbi",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Limbă Origine:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Destinație Limba:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "record",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "căutător",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Căutați în Google.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Înțeles în Google.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Căutare Wikipedia.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "Pe KAYAK.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "În Ce înseamnă.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitraduccion",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "Pentru verificarea ortografiei accesați Firefox -> Suplimente -> Dicționare\n - Includeți dicționarul dorit.\n\nPuteți glisa acest dialog cu mouse-ul.\n\n * CLICK DOUBLE pentru a curăța acest text.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Memento înregistrată! ~ Traduceți prin Google de către Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "tradus în limba:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Topul mai multor limbi de tradus: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Definiție, Sinonime, mai multe informații",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Căutați pe Google",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Definiție în Google",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTraductor",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "selectat",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "limbi",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "trimite",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Este posibilă numai traducerea unui cuvânt \r\nici un paragraf selectat la un moment dat",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

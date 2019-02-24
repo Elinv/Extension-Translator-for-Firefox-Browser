@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "מתרגם אלינו ב- Google",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "זה מאפשר לתרגם את כל הדף או טקסט נבחר ועוד ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "מתרגם אלינו ב- Google [אפשרויות]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "תרגם דף אינטרנט",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "תרגם את הבחירה במקום",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "תרגם טקסטים ב- GOOGLE",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "הכן שפות",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "מקור שפה:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "שפת יעד:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "שיא",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "מחפש",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "חפש ב- Google.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "משמעות ב- Google.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "חיפוש בוויקיפדיה.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "על קאיאק.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "מה זה אומר.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "רב - שכבתי",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "עבור בודק האיות עבור אל Firefox -> תוספות -> מילונים \n - כלול את המילון לפי בחירתך. \n\n תוכל לגרור שיח זה עם העכבר. \n\n * לחיצה כפולה כדי לנקות את הטקסט.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "תזכורת מוקלטת! ~ Google Translate על ידי אלינו",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "תורגם לשפה:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "למעלה של מספר שפות לתרגום: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "הגדרה, מילים נרדפות, מידע נוסף",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "חפש ב- Google",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "הגדרה ב- Google",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTranslator",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "נבחר",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "שפות",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "שלח",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "ניתן רק לתרגם מילה\r\nאף לא נבחרה פסקה בכל פעם",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

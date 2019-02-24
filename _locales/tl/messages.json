@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Elinv translator sa Google",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Pinapayagan nito na i-translate ang buong pahina o piniling teksto at higit pa ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Tagasalin ng Elinv sa Google [Mga Pagpipilian]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Isalin ang web page",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Isalin ang pagpili sa lugar",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Isalin ang mga teksto sa GOOGLE",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Maghanda ng Mga Wika",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Pinagmulang Wika:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Destination Language:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "Mag-record",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "seeker",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Maghanap sa google.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Kahulugan sa google.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Maghanap sa Wikipedia.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "Sa KAYAK.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "Sa Ano ang ibig sabihin nito.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitraduction",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "Para sa spell checker pumunta sa Firefox -> Mga add-on -> Mga Diksyunaryo\n-Isama ang diksyunaryo na gusto mo.\n\nMaaari mong i-drag ang dialog na ito gamit ang mouse.\n\n * DOBLE CLICK upang linisin ang tekstong ito.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Na-record na paalala! ~ Google Translate by Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "isinalin sa wika:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Tuktok ng multi wika upang i-translate: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Kahulugan, Mga kasingkahulugan, karagdagang impormasyon",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Maghanap sa Google",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Kahulugan sa Google",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTranslator",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "Napili",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "Mga Wika",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "Ipadala",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Posible lamang na i-translate ang isang salita na walang napiling talata sa bawat pagkakataon",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

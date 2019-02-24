@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Dịch Elinv trên Google",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Nó cho phép dịch toàn bộ trang hoặc văn bản đã chọn và nhiều hơn nữa ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Dịch giả Elinv trong Google [Tùy chọn]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Dịch trang web",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Dịch lựa chọn tại chỗ",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Dịch văn bản trên GOOGLE",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Chuẩn bị ngôn ngữ",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Xuất xứ Ngôn ngữ:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Ngôn ngữ điểm đến:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "Ghi lại",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "người tìm kiếm",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Tìm kiếm trong google.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Ý nghĩa trong google.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Tìm kiếm Wikipedia.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "Ngày KAYAK.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "Trong ý nghĩa của nó.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Đa truyền thông",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "Để kiểm tra chính tả, hãy vào Firefox -> Tiện ích -> Từ điển\n-Bao gồm từ điển bạn chọn.\n\nBạn có thể kéo hộp thoại này bằng chuột.\n\n * ĐÓNG GÓP Ý để xóa văn bản này.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Ghi nhớ lời nhắc! ~ Google Dịch bởi Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "dịch sang ngôn ngữ:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Phần trên cùng của nhiều ngôn ngữ để dịch: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Định nghĩa, từ đồng nghĩa, thêm thông tin",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Tìm kiếm trên Google",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Định nghĩa trong Google",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTranslator",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "Đã chọn",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "Ngôn ngữ",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "Gửi",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Chỉ có thể dịch một từ \r\nkhông có ai chọn đoạn văn tại một thời điểm",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

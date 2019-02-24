@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Elinv prevodilac na Google-u",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Omogućava prevođenje čitave stranice ili izabranog teksta i više ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Elinv prevodilac u Googleu [Opcije]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Prevođenje web stranice",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Prevedite izbor na mjesto",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Prevod teksta na GOOGLE",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Pripremite jezike",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Jezik porekla:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Odredišni jezik:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "Snimi",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "tražioca",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Traži u google.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Značenje u Google-u.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Pretraži Wikipedia.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "Na KAYAK-u.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "U šta to znači.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitrading",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "Za proveru pravopisa idite u Firefox -> Dodaci -> Rečnici \n-Uključite rečnik po vašem izboru. \n\nMožete prevući ovaj dijalog pomoću miša. \n\n * DOUBLE CLICK za čišćenje ovog teksta.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Snimljen podsetnik! ~ Google Translate by Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "preveden na jezik:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Vrh više jezika za prevod: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Definicija, sinonimi, više informacija",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Potražite na Google-u",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Definicija u Google-u",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTranslator",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "Izabrani",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "Jezici",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "Pošalji",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Prevođenje reči je moguće samo ako se ne izabere samo jedan izabrani pasus",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

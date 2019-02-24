@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "นักแปล Elinv ใน Google",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "จะช่วยให้การแปลทั้งหน้าหรือข้อความที่เลือกและอื่น ๆ ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "นักแปล Elinv ใน Google [ตัวเลือก]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "แปลหน้าเว็บ",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "แปลการเลือกในสถานที่",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "แปลข้อความใน GOOGLE",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "เตรียมภาษา",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "ภาษาแหล่งกำเนิดสินค้า:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "ภาษาปลายทาง:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "บันทึก",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "นักแสวงหา",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "ค้นหาใน google",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "ความหมายใน google",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "ค้นหา Wikipedia",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "เมื่อ KAYAK",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "ในความหมาย",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitraduccion",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "สำหรับตัวตรวจสอบตัวสะกดไปที่ Firefox -> Add-ons -> พจนานุกรม\n- รวมพจนานุกรมที่คุณต้องการ\n\n คุณสามารถลากกล่องโต้ตอบนี้ด้วยเมาส์\n\n * คลิกสองครั้งเพื่อล้างข้อความนี้",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "บันทึกเตือน! ~ Google แปลโดย Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "แปลเป็นภาษา:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "ด้านบนของหลายภาษาที่จะแปล: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "คำจำกัดความคำพ้องความหมายข้อมูลเพิ่มเติม",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "ค้นหาใน Google",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "นิยามใน Google",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTraductor",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "เลือก",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "ภาษา",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "ส่ง",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "เป็นไปได้ที่จะแปลคำว่า \r\nไม่มีย่อหน้าที่เลือกไว้ในแต่ละครั้ง",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

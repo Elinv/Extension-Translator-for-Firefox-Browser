@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Elinv fordító a Google-on",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Lehetővé teszi az egész oldal vagy a kiválasztott szöveg lefordítását, és többet ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Elinv fordító a Google-ban [Beállítások]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Weboldal fordítása",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Fordítsa meg a szelekciót a helyén",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Szövegek fordítása a GOOGLE-on",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Nyelvek előkészítése",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Nyelv Származási hely:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Rendeltetési nyelv:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "rekord",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "kereső",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Keresés a Google-on.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Jelentés a google-ban.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Wikipedia keresése.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "A KAYAK.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "Mit jelent.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitraduccion",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "A helyesírás-ellenőrzőhöz menjen a Firefoxba -> Kiegészítők -> Szótárak \n- a választott szótárat. \n\nA párbeszédablakot az egérrel húzhatja. \n\n * DUPLA CLICK a szöveg tisztításához.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Felvett emlékeztető! ~ A Google Forditása az Elinv által",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "lefordítva nyelvre:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "A fordító több nyelvének teteje: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Definíció, szinonimák, további információk",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Keresés a Google-on",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Definíció a Google-ban",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTraductor",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "kiválasztott",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "nyelvek",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "küld",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Egy szó csak egy kiválasztott bekezdést lefordíthat egyszerre",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

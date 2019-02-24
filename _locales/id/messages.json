@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Penerjemah Elinv di Google",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Ini memungkinkan untuk menerjemahkan seluruh halaman atau teks yang dipilih dan banyak lagi ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Penerjemah Elinv di Google [Opsi]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Terjemahkan halaman web",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Menerjemahkan pilihan di tempat",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Terjemahkan teks di GOOGLE",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Siapkan Bahasa",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Bahasa Asal:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Bahasa Tujuan:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "Rekam",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "pencari",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Cari di google.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Berarti di google.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Cari Wikipedia.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "Di KAYAK.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "Dalam Apa artinya.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitraduction",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "Untuk pemeriksa ejaan, buka Firefox -> Add-ons -> Kamus \n-Sertakan kamus pilihan Anda. \n\nAnda dapat menyeret dialog ini dengan mouse. \n\n * DOUBLE CLICK untuk membersihkan teks ini.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Rekaman pengingat! ~ Google Terjemahan oleh Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "diterjemahkan ke bahasa:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Atas multi bahasa untuk diterjemahkan: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Definisi, Sinonim, informasi lebih lanjut",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Cari di Google",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Definisi di Google",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTranslator",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "Dipilih",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "Bahasa",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "Kirim",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Anda hanya dapat menerjemahkan kata\r\ntidak ada satu paragraf yang dipilih sekaligus",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

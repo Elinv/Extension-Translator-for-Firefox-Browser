@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Elinv tradutor no Google",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Permite traduzir página inteira ou texto selecionado e muito mais ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Tradutor Elinv no Google [Opções]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Traduzir página da web",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Traduzir seleção no lugar",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Traduzir textos no GOOGLE",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Prepare Idiomas",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Origem da Linguagem:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Idioma de destino:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "Record",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "buscador",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Pesquisa no google.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Significado no google.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Pesquisar na Wikipédia.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "No KAYAK.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "Em o que isso significa.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitradução",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "Para o verificador ortográfico, vá para Firefox -> Complementos -> Dicionários\n-Inclua o dicionário de sua escolha.\n\nVocê pode arrastar essa caixa de diálogo com o mouse.\n\n * DUPLO CLIQUE para limpar este texto.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Lembrete gravado! ~ Google Tradutor por Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "traduzido para o idioma:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Topo de vários idiomas para traduzir: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Definição, sinônimos, mais informações",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Pesquisa no Google",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Definição no Google",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTranslator",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "Selecionado",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "Idiomas",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "Enviar",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Só é possível traduzir uma palavra \r\nenhum parágrafo selecionado de cada vez",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

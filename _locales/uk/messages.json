@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Перекладач Elinv на Google",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Це дозволяє перекладати всю сторінку або вибраний текст і багато іншого ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Перекладач Elinv в Google [Параметри]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Перекласти веб-сторінку",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Вибір перекладу на місці",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Перекладайте тексти на GOOGLE",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Підготовка мов",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Походження мови:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Мова призначення:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "Запис",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "шукач",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Пошук в google",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Значення в google",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Пошук у Вікіпедії.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "На KAYAK.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "У чому це означає.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Мультипроведення",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "Для перевірки правопису переходьте до Firefox -> Доповнення -> Словники\n-Включіть ваш словник.\n\nВи можете перетягнути це діалогове вікно за допомогою миші.\n\n * ДВОЙЧИНКИ клацніть, щоб очистити цей текст.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Записане нагадування! ~ Переклад Google за Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "перекладено на мову:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Вершина декількох мов для перекладу: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Визначення, синоніми, більше інформації",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Пошук в Google",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Визначення в Google",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTranslator",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "Вибрано",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "Мови",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "Відправити",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Переклад слова можна лише за один вибір одного абзацу за один раз",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

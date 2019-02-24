@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "GoogleのElinv翻訳者",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "それは、ページ全体または選択されたテキストなどを翻訳することができます...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "GoogleのElinvトランスレータ[オプション]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "ウェブページを翻訳する",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "選択した場所に翻訳する",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "GOOGLEのテキストを翻訳する",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "言語を準備する",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "言語の起源：",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "行き先言語：",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "レコード",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "シーカー",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Googleで検索してください。",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "googleの意味。",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "ウィキペディアを検索します。",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "カヤックで。",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "それはどういう意味ですか？",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "マルチトレーディング",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "スペルチェッカーの場合はFirefox - >アドオン - >辞書\n - あなたの選択した辞書を含める\n\nこのテキストをマウスでドラッグすると\n\n*ダブルクリックしてこのテキストを消去できます。",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "記録されたリマインダー！ 〜ElinvによるGoogle翻訳",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "言語に翻訳された：",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "翻訳する言語のトップ：10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "定義、同義語、詳細情報",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Googleで検索",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Googleの定義",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "マルチトランスレータ",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "選択された",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "言語",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "送信",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "一度に選択した段落の単語を翻訳することはできません。",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

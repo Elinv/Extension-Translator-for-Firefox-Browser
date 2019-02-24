@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Elinv-oversetter på Google",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Det gjør det mulig å oversette hele siden eller valgt tekst og mer ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Elinv-oversetter i Google [Alternativer]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Oversett nettside",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Oversett valget på plass",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Oversett tekster på GOOGLE",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Forbered språk",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Språkopprinnelse:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Destinasjonsspråk:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "posten",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "seeker",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Søk i google.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Betydning i google.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Søk Wikipedia.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "På KAYAK.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "I Hva betyr det.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitraduccion",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "For stavekontrollen skal du gå til Firefox -> Add-ons -> Ordbøker \n-Inkluder ordlisten etter eget valg.\n\nDu kan dra denne dialogen med musen.\n\n* DOBBEL KLIKK for å rydde denne teksten.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Registrert påminnelse! ~ Google Translate av Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "oversatt til språk:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Øverst på flere språk å oversette: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Definisjon, synonymer, mer informasjon",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Søk på Google",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Definisjon i Google",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTraductor",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "valgt",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "språk",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "sende",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Det er bare mulig å oversette et ord \r\ningen valgt avsnitt om gangen",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

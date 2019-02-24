@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Traductor Elinv en Google",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Permite traducir página entera o texto seleccionado y mas...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Traductor Elinv en Google [Opciones]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Traducir pagina web",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Traducir selección en el lugar",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Traducir textos en GOOGLE",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Preparar Idiomas",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Idioma Origen:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Idioma Destino:",
+        "description": "Idioma destino."
+    },
+    "Grabar": {
+        "message": "Grabar",
+        "description": "Grabar."
+    },
+    "buscador": {
+        "message": "buscador",
+        "description": "buscador."
+    },
+    "buscar_en_google": {
+        "message": "Buscar en google.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Significado en google.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Buscar en Wikipedia.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "En Wordreference.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "En Que significa.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitraduccion.",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "Para el corrector ortográfico ir a Firefox-->Complementos--> Diccionarios\r\n-Incluir el diccionario de tu preferencia.\r\n\r\nPuede arrastrar este diálogo con el mouse.\r\n\r\n* DOBLE CLIC para limpiar este texto.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Recordatorio grabado! ~ Traductor de Google por Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "traducido a idioma/s:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Tope de multi idiomas a traducir: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Definición, Sinónimos, mas información",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Buscar en Google",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Definicion en Google",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTraductor",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "Seleccionados",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "Idiomas",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "Enviar",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Solo es posible traducir una palabra \r\no un párrafo seleccionado a la vez",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

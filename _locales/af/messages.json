@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Elinv-vertaler op Google",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Dit kan hele bladsy of geselekteerde teks en meer vertaal ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Elinv-vertaler in Google [Opsies]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Vertaal webblad",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Vertaal seleksie in plek",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Vertaal tekste op GOOGLE",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Tale voorberei",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Taal Oorsprong:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Taal van bestemming:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "rekord",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "soeker",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Soek in google.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Betekenis in google.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Soek Wikipedia.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "Op KAYAK.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "In Wat dit beteken.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitraduccion",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "Vir die speltoetser gaan na Firefox -> Byvoegings -> Woordeboeke \n- Voeg die woordeboek van u keuse in. \n\nDie dialoog kan met die muis gesleep word. \n \n * DOUBLE CLICK om hierdie teks skoon te maak.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Opgeneem herinnering! ~ Google Translate deur Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "vertaal in taal:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Top van verskeie tale om te vertaal: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Definisie, sinonieme, meer inligting",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Soek op Google",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Definisie in Google",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTraductor",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "gekies",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "tale",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "stuur",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Dit is slegs moontlik om 'n woord \r\ngeen een geselekteerde paragraaf op 'n keer te vertaal nie",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

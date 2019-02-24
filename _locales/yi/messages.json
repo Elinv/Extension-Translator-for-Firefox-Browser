@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "עלינוו איבערזעצער אויף Google",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "עס אַלאַוז צו איבערזעצן גאַנץ בלאַט אָדער אויסגעקליבן טעקסט און מער ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "עלינוו איבערזעצער אין גוגל [אָפּציעס]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "איבערזעצן וועבזייטל",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "זעץ סעלעקציע אין אָרט",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "איבערזעצן טעקסטן אויף GOOGLE",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Prepare Languages",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "שפּראַך אָריגין:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Destination Language:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "Record",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "זוכער",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "זוכן אין google.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "טייַטש אין Google.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "זוכן וויקיפּעדיע.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "אין KAYAK.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "אין וואָס עס מיטל.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitraduction",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "פֿאַר די רעגע קאָנטראָליאָר גיין צו פירעפאָקס -> לייג-אָנס -> דיקשאַנעריז\n-אַרייַננעמען די ווערטערבוך פון דיין ברירה.\n\n איר קענען שלעפּן דאָס דיאַלאָג מיט די מויז.\n\n * טאָפּל גיט צו ריין דעם טעקסט.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "רעקאָרדעד דערמאָנונג! ~ Google זעץ דורך עלינוו",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "איבערגעזעצט אויף לשון:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Top פון מאַלטי שפּראַכן צו איבערזעצן: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "דעפיניטיאָן, סינאָנימס, מער אינפֿאָרמאַציע",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "זוך אויף Google",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "דעפיניטיאָן אין Google",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTranslator",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "אויסגעקליבן",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "שפּראַכן",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "שיקן",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "עס איז בלויז מעגלעך צו איבערזעצן א ווארט \r\nקיין איין אויסגעקליבן פּאַראַגראַף אין אַ צייט",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

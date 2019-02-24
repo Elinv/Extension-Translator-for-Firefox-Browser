@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Elinv μεταφραστής στο Google",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Επιτρέπει τη μετάφραση ολόκληρης της σελίδας ή του επιλεγμένου κειμένου και πολλά άλλα ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Elinv μεταφραστής στο Google [Επιλογές]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Μετάφραση ιστοσελίδας",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Μεταφράστε την επιλογή στη θέση της",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Μεταφράστε κείμενα στο GOOGLE",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Προετοιμασία Γλωσσών",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Γλώσσα Προέλευσης:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Γλώσσα προορισμού:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "Εγγραφή",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "αναζητήτρια",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Αναζήτηση στο Google.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Σημασία στο google.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Αναζήτηση στη Wikipedia.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "Στο KAYAK.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "Σε τι σημαίνει αυτό.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Πολλαπλασιασμός",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "Για τον ορθογραφικό έλεγχο πηγαίνετε στο Firefox -> Add-ons -> Λεξικά \n- Συμπεριλάβετε το λεξικό της επιλογής σας \n\nΜπορείτε να σύρετε αυτό το παράθυρο διαλόγου με το ποντίκι. \n\n * DOUBLE CLICK για να καθαρίσετε αυτό το κείμενο.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Καταγεγραμμένη υπενθύμιση! ~ Μετάφραση Google από την Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "μεταφρασμένη στη γλώσσα:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Αρχή πολλών γλωσσών για μετάφραση: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Ορισμός, Συνώνυμα, περισσότερες πληροφορίες",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Αναζήτηση στο Google",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Ορισμός στο Google",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTranslator",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "Επιλεγμένο",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "Γλώσσες",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "Αποστολή",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Είναι δυνατή μόνο η μετάφραση μιας λέξης \r\nκανένας επιλεγμένος παράγων κάθε φορά",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

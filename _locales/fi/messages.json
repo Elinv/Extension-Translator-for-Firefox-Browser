@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Elinv-kääntäjä Googlessa",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Sen avulla voidaan kääntää koko sivu tai valittu teksti ja lisää ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Elinv-kääntäjä Googlessa [Asetukset]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Käännä verkkosivu",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Käännä valinta paikalleen",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Käännä tekstejä GOOGLEssa",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Valmista kielet",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Kieli Alkuperä:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Kohdekieli:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "ennätys",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "etsijä",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Hae google.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Merkitys googlessa.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Etsi Wikipedia.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "Käytä KAYAKesi.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "Mitä se tarkoittaa.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitraduccion",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "Jos käytät oikeinkirjoituksen tarkennusta, siirry Firefoxiin -> Lisäosat -> Sanakirjat \n-Sisällytä haluamasi sanakirja. \n\nVoit vetää tämän valintaikkunan hiirellä. \n\n * DOUBLE CLICK puhdistaa tämän tekstin.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Tallennettu muistutus! ~ Google Translate by Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "käännetty kielelle:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Monien kielten yläosa kääntää: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Määritelmä, synonyymit, lisätietoja",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Hae Googlessa",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Määritelmä Googlessa",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTraductor",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "valittu",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "kieliä",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "lähettää",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Sanaa voi kääntää vain yhdellä valitulla kappaleella kerrallaan",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Elinv թարգմանիչ Google- ում",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Այն թույլ է տալիս թարգմանել ամբողջ էջը կամ ընտրված տեքստը եւ ավելին ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Elinv թարգմանիչ Google- ում [Ընտրանքներ]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Թարգմանել վեբ էջը",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Տեղադրել ընտրությունը տեղում",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Թարգմանեք տեքստեր GOOGLE- ում",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Պատրաստել լեզուները",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Լեզու ծագումը `",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Նպատակը լեզու.",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "Record",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "փնտրող",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Որոնել Google- ում:",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Google- ի իմաստը:",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Որոնել Վիքիպեդիայում:",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "ԿԱՅԱ.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "Ինչ է դա նշանակում:",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitraduction- ը",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "Խոսքի ստուգիչի համար գնացեք Firefox-> Հավելվածներ-> Բառարաններ- \n- Ներառեք ձեր ընտրության բառարանը: \n\n Դուք կարող եք այս երկխոսությունը քաշել մկնիկի հետ: \n\n * ԵՐԿԽՈՍՈՒԹՅՈՒՆԸ այս տեքստը մաքրելու համար:",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Ձայնագրված հիշեցում: ~ Google Translate- ի կողմից Elinv- ի կողմից",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "թարգմանվել է լեզվով.",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "10 լեզուների վերեւը թարգմանելու համար",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Սահմանում, հոմանիշներ, լրացուցիչ տեղեկություններ",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Որոնեք Google- ում",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Սահմանում Google- ում",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTranslator",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "Ընտրված",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "Լեզուներ",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "Ուղարկել",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Միայն հնարավոր է թարգմանել բառը\r\no one selected paragraph պարբերաբար",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

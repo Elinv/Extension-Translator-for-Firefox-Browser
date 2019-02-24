@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Google上的Elinv翻译器",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "它允许翻译整个页面或选定的文本和更多...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Google中的Elinv翻译器[选项]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "翻译网页",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "转换选择",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "在GOOGLE上翻译文字",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "准备语言",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "语言来源：",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "目的地语言：",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "记录",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "导引头",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "在谷歌搜索。",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "在谷歌的意思。",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "搜索维基百科。",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "在KAYAK。",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "它意味着什么。",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitraduccion",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "对于拼写检查工具，请转至Firefox - >附加组件 - >字典\n- 包含您选择的字典。\n\n您可以用鼠标拖动此对话框。\n\n *双击以清除此文本。",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "记录提醒！ 〜由Google翻译Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "翻译成语言：",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "翻译多种语言的顶部：10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "定义，同义词，更多信息",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "在Google上搜索",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Google中的定义",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTraductor",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "选",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "语言",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "发送",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "只能翻译单词\r\n一次没有选择一个段落",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

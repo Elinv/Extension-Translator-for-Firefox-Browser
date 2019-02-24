@@ -1,0 +1,236 @@
+/* CSS tabs ayuda 
+------------------*/
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    top: 0px;
+    position: relative;
+    z-index: 1001;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: rgb(207, 204, 204);
+    transform: rotateX(30deg) rotateY(40deg);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/* Style the close button */
+.topright {
+    float: right;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.topright:hover {
+    color: red;
+}
+
+.imgTutorial {
+    /*transform: rotateX(15deg) rotateY(40deg);*/
+    animation: move 5s infinite;
+}
+
+@keyframes move {
+    0% {
+        transform-origin: 100% 0;
+        transform: perspective(800px) rotateY(0deg);
+    }
+    50% {
+        transform-origin: 0 100%;
+        transform: perspective(800px) rotateY(-5deg);
+    }
+    100% {
+        transform-origin: 0 100%;
+        transform: perspective(800px) rotateY(0deg);
+    }
+}
+
+/* FIN CSS tabs ayuda 
+---------------------*/
+
+/* PREPARAR IDIOMA Y DEMAS
+---------------------*/
+#idOrigen,
+#idDestino {
+    border: 0;
+    color: #EEE;
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px 10px;
+    width: 378px;
+    -webkit-appearance: none;
+}
+
+#idOrigen,
+#idDestino {
+    overflow: hidden;
+    width: 350px;
+    -webkit-border-radius: 9px 9px 9px 9px;
+    border-radius: 9px 9px 9px 9px;
+    box-shadow: 1px 1px 15px #330033;
+    background: #58B14C url("./img/selector.png") no-repeat scroll 319px center;
+}
+
+.titulo {
+    color: #FF1177;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Monoton;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+}
+
+.titulo:hover {
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+/*glow for webkit-ket-frames*/
+@-webkit-keyframes neon1 {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+    }
+
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+    }
+}
+
+.area {
+    font-size: 26px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 5px #0047ff, 0px 0px 7px #fff;
+}
+
+.box h3 {
+    text-align: center;
+    font-family: Arial;
+    color: #fff;
+    top: 80px;
+}
+
+.box,
+.box1 {
+    width: 80%;
+    height: 300px;
+    background: #2187a2;
+}
+
+.box1 {
+    top: 50px;
+    height: 410px;
+}
+
+.sombraBox {
+    position: relative;
+}
+
+.sombraBox:before,
+.sombraBox:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 25px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width: 300px;
+    background: #777;
+    -webkit-box-shadow: 0 35px 20px #777;
+    box-shadow: 0 35px 20px #777;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+}
+
+.sombraBox:after {
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    transform: rotate(8deg);
+    right: 10px;
+    left: auto;
+}
+
+.img1,
+.img2 {
+    top: 10%;
+    left: 55%;
+    position: absolute;
+    z-index: 1000;
+    opacity: 0.5;
+}
+
+.img2 {
+    top: 60%;
+    left: 50%;
+}
+
+.botones {
+    -webkit-box-shadow: inset 0px 1px 0px 0px #f9eca0;
+    box-shadow: inset 0px 1px 0px 0px #f9eca0;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f0c911), color-stop(1, #f2ab1e));
+    background: -moz-linear-gradient(top, #f0c911 5%, #f2ab1e 100%);
+    background: -webkit-linear-gradient(top, #f0c911 5%, #f2ab1e 100%);
+    background: linear-gradient(to bottom, #f0c911 5%, #f2ab1e 100%);
+    background-color: #f0c911;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #e65f44;
+    display: inline-block;
+    cursor: pointer;
+    color: #c92200;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ded17c;
+}
+
+.botones:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f2ab1e), color-stop(1, #f0c911));
+    background: -moz-linear-gradient(top, #f2ab1e 5%, #f0c911 100%);
+    background: -webkit-linear-gradient(top, #f2ab1e 5%, #f0c911 100%);
+    background: linear-gradient(to bottom, #f2ab1e 5%, #f0c911 100%);
+    background-color: #f2ab1e;
+}
+
+.botones:active {
+    position: relative;
+    top: 1px;
+}
+
+/* FIN PREPARAR IDIOMA Y DEMAS
+---------------------*/

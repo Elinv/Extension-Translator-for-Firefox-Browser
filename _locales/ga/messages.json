@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Aistritheoir Elinv ar Google",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Ceadaíonn sé leathanach iomlán nó téacs roghnaithe a aistriú agus níos mó ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Aistritheoir Elinv in Google [Roghanna]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Aistrigh leathanach gréasáin",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Aistrigh roghnú i bhfeidhm",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Aistrigh téacsanna ar GOOGLE",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Ullmhaigh Teangacha",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Origin Teanga:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Teanga Ceann Scríbe:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "Taifead",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "iarrthóir",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Cuardaigh i google.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Brí ar google.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Cuardaigh Vicipéid.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "Ar KAYAK.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "I Cad a chiallaíonn sé.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Ilrathrathú",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "Chun an seiceálaí litrithe téigh go dtí Firefox -> Breiseáin -> Foclóirí \n-Cuir isteach an foclóir de do rogha. \n\nIs féidir leat an dialóg seo a tharraingt leis an luch. \n\n * Cliceáil DÍOLACH chun an téacs seo a ghlanadh.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Meabhrúchán taifeadta! ~ Google Aistrigh ag Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "aistrithe go teanga:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Barr na dteangacha il a aistriú: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Sainmhíniú, Comhchiallaigh, tuilleadh eolais",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Cuardaigh ar Google",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Sainmhíniú i Google",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTranslator",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "Roghnaithe",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "Teangacha",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "Seol",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Ní féidir ach focal\r\ngan aon mhír roghnaithe amháin a aistriú ag an am",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

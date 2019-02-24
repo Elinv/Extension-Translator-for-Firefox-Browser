@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Elinv þýðandi á Google",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Það gerir þér kleift að þýða alla síðu eða valda texta og fleira ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Elinv þýðandi í Google [Valkostir]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Þýða vefsíðu",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Þýða val á sínum stað",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Þýða texta á GOOGLE",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Undirbúa tungumál",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Tungumál Uppruni:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Áfangasmål:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "Taka upp",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "umsækjandi",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Leita í google.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Merking í google.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Leita á Wikipediu.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "Á KAYAK.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "Í hvað það þýðir.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Fjölritun",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "Fyrir stafsetningarprófann fara í Firefox -> Viðbætur -> Orðabækur \n-Hafa orðabókina að eigin vali. \n\nÞú getur dregið þennan glugga með músinni. \n\n * DOUBLE CLICK til að hreinsa þennan texta.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Skráð áminning! ~ Google Translate eftir Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "þýtt í tungumál:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Efst á mörgum tungumálum til að þýða: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Skilgreining, Samheiti, frekari upplýsingar",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Leita á Google",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Skilgreining í Google",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTranslator",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "Valdar",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "Tungumál",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "Senda",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Það er aðeins hægt að þýða orð\r\nenginn valinn málsgrein í einu",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

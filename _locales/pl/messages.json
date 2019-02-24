@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Tłumacz Elinv w Google",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Pozwala przetłumaczyć całą stronę lub zaznaczony tekst i więcej ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Tłumacz Elinv w Google [Opcje]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Przetłumacz stronę internetową",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Przetłumacz zaznaczenie na miejsce",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Tłumacz teksty w GOOGLE",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Przygotuj języki",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Język pochodzenia:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Język docelowy:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "Nagraj",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "poszukiwacz",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Wyszukaj w google.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Znaczenie w google.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Szukaj w Wikipedii.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "Na KAYAK.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "W Co to znaczy.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitraduction",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "Aby sprawdzić pisownię, przejdź do Firefox -> Dodatki -> Słowniki \n-Dołącz wybrany słownik.\n\nMożesz przeciągnąć to okno za pomocą myszki.\n\n* PODWÓJNE KLIKNIJ, aby wyczyścić ten tekst.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Nagrane przypomnienie! ~ Google Translate by Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "przetłumaczone na język:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Góra wielu języków do przetłumaczenia: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Definicja, synonimy, więcej informacji",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Wyszukaj w Google",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Definicja w Google",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTranslator",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "Wybrane",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "Języki",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "Wyślij",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Możliwe jest tylko przetłumaczenie słowa \r\nnikt nie wybrał akapitu na raz",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Elinv Übersetzer bei Google",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Es erlaubt ganze Seite oder ausgewählten Text zu übersetzen und mehr ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Elinv Übersetzer in Google [Optionen]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Webseite übersetzen",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Übersetzen Sie die Auswahl an Ort und Stelle",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Übersetzen Sie Texte auf GOOGLE",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Bereiten Sie Sprachen vor",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Sprache Ursprung:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Zielsprache:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "Aufnehmen",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "Sucher",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Suche in Google.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Bedeutung in Google.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "In Wikipedia suchen.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "Auf KAYAK.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "In was es bedeutet.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitraduktion",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "Für die Rechtschreibprüfung gehen Sie zu Firefox -> Add-ons -> Wörterbücher \n - Fügen Sie das Wörterbuch Ihrer Wahl hinzu. \n\nSie können diesen Dialog mit der Maus ziehen. \n\n * DOPPELKLICKEN, um diesen Text zu bereinigen.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Aufgezeichnete Erinnerung! ~ Google Translate von Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "übersetzt in Sprache:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Top of Multi Sprachen zu übersetzen: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Definition, Synonyme, weitere Informationen",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Suche auf Google",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Definition in Google",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTranslator",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "Ausgewählt",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "Sprachen",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "Senden",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Es ist nur möglich, ein Wort zu einem bestimmten Zeitpunkt zu übersetzen",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

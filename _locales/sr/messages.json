@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Елинв преводилац на Гоогле-у",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Омогућава превођење читаве странице или изабраног текста и више ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Елинв преводилац у Гооглеу [Опције]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Пребаците веб страницу",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Преведите избор на место",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Превод текста на ГООГЛЕ",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Припремите језике",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Лангуаге Оригин:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Језик одредишта:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "Сними",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "тражиоца",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Тражи у гоогле.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Значење у Гоогле-у.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Тражи Википедиа.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "На КАИАК-у.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "У шта то значи.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Мултитрадинг",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "За проверу правописа идите у Фирефок -> Додаци -> Речници\n- Укључите речник по вашем избору.\n\nМожете превући овај дијалог помоћу миша.\n\n* ДОУБЛЕ ЦЛИЦК за чишћење овог текста.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Снимљен подсетник! ~ Гоогле Транслате би Елинв",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "преведен на језик:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Врх више језика за превод: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Дефиниција, синоними, више информација",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Потражите на Гоогле-у",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Дефиниција у Гоогле-у",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "МултиТранслатор",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "Изабрано",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "Језици",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "Пошаљи",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Превођење речи је могуће само ако се не изабере само један изабрани пасус",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

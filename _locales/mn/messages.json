@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Google дээр Элинв орчуулагч",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Энэ нь бүхэлд нь хуудас эсвэл сонгосон текстийг орчуулах боломжтой ба ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Google дахь Элинв орчуулагч [Сонголт]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Вэб хуудсыг орчуулах",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Сонголтыг орчуулаарай",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "GOOGLE дээр текстийг орчуулах",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Хэлний бэлтгэл",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Хэлний гарал үүсэл:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Зориулалтын хэл:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "Бичлэг",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "хайгч",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Google дээр хайх.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Google-ийн утга агуулга.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Википедиа хайх.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "KAYAK дээр.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "Энэ нь юу гэсэн үг вэ.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitraduction",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "Шалгах шалгагч нь Firefox -> Нэмэгдлүүд -> толь бичигт орно уу \n- Өөрийн сонголтоо бичнэ үү. \n\nТа энэ харилцааг хулганаар чирж болно. \n\n * DOUBLE CLICK энэ текстийг цэвэрлэхийн тулд.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Бичсэн сануулагч! ~ Elinv-ийн Google орчуулга",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "хэл рүү орчуулсан:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Орчуулах олон хэлээр ярьдаг: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Тодорхойлолт, нэр томъёо, дэлгэрэнгүй мэдээлэл",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Google дээр хайх",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Google-ийн тодорхойлолт",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTranslator",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "Сонгогдсон",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "Хэл",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "Илгээх",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Зөвхөн нэг үгээр сонгосон үг",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

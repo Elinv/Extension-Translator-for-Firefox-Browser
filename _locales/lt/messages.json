@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Elinv vertėjas Google",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Tai leidžia išversti visą puslapį arba pasirinktą tekstą ir dar daugiau ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Elinv vertėjas Google [parinktys]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Versti tinklalapį",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Išverskite pasirinkimą vietoje",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Versti tekstus GOOGLE",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Parengti kalbas",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Kalbos kilmė:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Paskirties kalba:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "Įrašyti",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "ieškovas",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Ieškoti google.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Sąvoka google.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Ieškoti Vikipedijoje.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "KAYAK.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "Kuo tai reiškia.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitraduction",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "Patikrinimui rašybos eikite į Firefox -> Papildiniai elementai -> Žodynai \n -Įtraukite pasirinktą žodyną.\n\nJūs galite vilkti šį dialogą naudodami pelę.\n\n * DUOMENIS SPUSTELĖKITE, kad išvalytumėte šį tekstą.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Įrašytas priminimas! ~ Google vertimas Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "išversta į kalbą:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Įvairių kalbų viršuje išversti: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Apibrėžimas, sinonimai, daugiau informacijos",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Ieškoti Google",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Apibrėžimas Google",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTranslator",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "Pasirinkta",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "Kalbos",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "Siųsti",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Vienu metu galima išversti tik vieną pasirinktą pastraipą",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

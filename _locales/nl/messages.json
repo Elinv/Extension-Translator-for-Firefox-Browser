@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Elinv vertaler op Google",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Het laat toe om hele pagina's of geselecteerde teksten te vertalen en meer ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Elinv vertaler in Google [Opties]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Vertaal webpagina",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Vertaal selectie op zijn plaats",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Vertaal teksten op GOOGLE",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Bereid talen voor",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Taal Oorsprong:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Bestemmingstaal:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "record",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "zoeker",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Zoeken in google.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Betekenis in google.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Zoek in Wikipedia.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "Op KAYAK.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "In Wat het betekent.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitraduccion",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "Ga voor de spellingscontrole naar Firefox -> Add-ons -> Woordenboeken \n - Voeg het woordenboek van uw keuze toe.\n\nU kunt dit dialoogvenster slepen met de muis.\n\n* DUBBELKLIKKEN om deze tekst op te ruimen.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Opgenomen herinnering! ~ Google Translate door Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "vertaald in taal:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Top van meerdere te vertalen talen: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Definitie, synoniemen, meer informatie",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Zoeken op Google",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Definitie in Google",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTraductor",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "gekozen",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "talen",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "sturen",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Het is alleen mogelijk om een woord \r\neen geselecteerde alinea tegelijkertijd te vertalen",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

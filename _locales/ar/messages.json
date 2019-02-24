@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "مترجم Elinv على جوجل",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "يسمح بترجمة الصفحة بأكملها أو النص المحدد والمزيد ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "مترجم Elinv في جوجل [خيارات]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "ترجمة صفحة الويب",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "ترجمة التحديد في المكان",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "ترجمة النصوص على GOOGLE",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "تحضير اللغات",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "أصل اللغة:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "لغة الوجهة:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "سجل",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "باحث",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "البحث في جوجل.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "يعني في جوجل.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "ابحث في ويكيبيديا.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "على KAYAK.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "في ماذا يعني.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitraduccion",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "بالنسبة إلى المدقق الإملائي ، انتقل إلى Firefox -> إضافات -> القواميس \n-أدخل القاموس الذي تختاره. \n \n يمكنك سحب مربع الحوار هذا باستخدام الماوس. \n\n * DOUBLE CLICK لتنظيف هذا النص.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "تذكير مسجل! ~ ترجمة جوجل عن طريق Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "ترجم إلى اللغة:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "قمة اللغات المتعددة للترجمة: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "التعريف ، المرادفات ، مزيد من المعلومات",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "البحث على جوجل",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "التعريف في جوجل",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTraductor",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "مختار",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "اللغات",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "إرسال",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "من الممكن فقط ترجمة كلمة \r\no فقرة واحدة محددة في كل مرة",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

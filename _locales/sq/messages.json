@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Përkthyesi i Elinv në Google",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Lejon të përkthejë tërë faqen ose tekstin e përzgjedhur dhe më shumë ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Përkthyesi i Elinv në Google [Options]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Përkthe web faqe",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Përcakto përzgjedhjen në vend",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Përkthe tekstet në GOOGLE",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Përgatitja e gjuhëve",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Origjina e gjuhës:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Gjuha e destinacionit:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "rekord",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "kërkues",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Kërko në google.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Kuptimi në google.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Kërko Wikipedia.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "Në KAYAK.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "Në Çfarë do të thotë.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitraduccion",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "Për kontrolluesin e shkrimit të shkrimit shkoni në Firefox -> Shtesa -> Fjalorë\n- Përfshini fjalorin sipas zgjedhjes suaj.\n\nTani mund ta zhvendosni këtë dialog me miun.\n\n * DOUBLE CLICK për të pastruar këtë tekst.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Kujtesë e regjistruar! ~ Google Translate nga Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "përkthyer në gjuhën:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Top i shumë gjuhëve për të përkthyer: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Përkufizimi, Sinonime, më shumë informacion",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Kërko në Google",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Definicion në Google",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTraductor",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "i zgjedhur",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "Gjuhë",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "dërgoj",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Është e mundur vetëm për të përkthyer një fjalë që nuk ka zgjedhur paragrafin në të njëjtën kohë",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

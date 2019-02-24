@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Google'da Elinv çevirmeni",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Tüm sayfayı veya seçilen metni ve daha fazlasını tercüme etmeyi sağlar ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Google'da Elinv çevirmeni [Seçenekler]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Web sayfasını çevir",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Seçimi yerinde çevir",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "GOOGLE'daki metinleri çevir",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Dilleri Hazırlamak",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Dil menşei:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Hedef Dil:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "kayıt",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "arayıcı",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Google'da ara.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Google'da Anlamı.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Wikipedia'da ara.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "KAYAK'ta.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "Ne anlama geliyor.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitraduccion",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "Yazım denetimi için Firefox -> Eklentiler -> Sözlükler\n-Seçtiğiniz sözlüğü ekleyin.\n\nBu iletişim kutusunu fareyle sürükleyebilirsiniz.\n\n * Bu metni temizlemek için ÇOK TIKLAYINIZ.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Kaydedilmiş hatırlatıcı! ~ Google Çeviren: Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "dile çevrildi:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Çevirmek için çoklu dillerin üstü: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Tanım, eşanlamlı, daha fazla bilgi",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Google'da ara",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Google'da Tanım",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTraductor",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "seçilmiş",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "diller",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "göndermek",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Bir seferde yalnızca seçili bir paragraf sözcüğü çevrilemez",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

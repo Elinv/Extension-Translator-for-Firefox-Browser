@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Elinv itzultzailea Google-n",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "Orri osoa edo hautatutako testua eta gehiago itzultzeko aukera ematen du ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Elinv itzultzailea Google-n [Aukerak]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Itzuli web orria",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Itzuli aukeraketa tokian",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Itzuli testuak GOOGLE zerbitzuan",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Prestatu hizkuntzak",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Jatorriaren hizkuntza:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Helburu hizkuntza:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "erregistro",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "bilatzailea",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Bilatu google-n.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Google-n esanahia.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Bilatu Wikipedia.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "Kalkuluan.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "Zer esan nahi du?",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitraduccion",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "Zuzentzaile ortografikoa Firefox-era joan -> Gehigarriak -> Hiztegiak \n-Aukerazko hiztegia sartu. \n\nOrrekin elkarrizketa hau arrastatu dezakezu. \n\n * DOAKO PINAK testu hau garbitzeko.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Grabatutako abisua! ~ Google Translate egilea: Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "hizkuntza itzulita:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Itzulitako hizkuntzen multzoa: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Definizioa, Sinonimoak, informazio gehiago",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Bilatu Google-n",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Google-ren definizioa",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTraductor",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "hautatutako",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "hizkuntzak",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "bidali",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "Bakarrik posiblea da hitza\r\nhautatutako paragrafo bat aldi berean",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

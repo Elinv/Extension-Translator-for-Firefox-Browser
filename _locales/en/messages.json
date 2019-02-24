@@ -1,0 +1,118 @@
+{
+    "extensionNombre": {
+        "message": "Elinv translator on Google",
+        "description": "Título del programa"
+    },
+    "extensionDescripcion": {
+        "message": "It allows to translate whole page or selected text and more ...",
+        "description": "descripción del programa"
+    },
+    "extensionTitleIcon": {
+        "message": "Elinv translator in Google [Options]",
+        "description": "Title del icono de la extensión"
+    },
+    "trad_pag": {
+        "message": "Translate web page",
+        "description": "Traduce toda una pagina web"
+    },
+    "trad_sel": {
+        "message": "Translate selection in place",
+        "description": "Traduce textos seleccionados"
+    },
+    "trad_sel_OUT": {
+        "message": "Translate texts on GOOGLE",
+        "description": "Traduce textos seleccionados"
+    },
+    "Preparar_Idiomas": {
+        "message": "Prepare Languages",
+        "description": "Titulo en las opciones."
+    },
+    "Idioma_Origen": {
+        "message": "Language Origin:",
+        "description": "Idioma Origen."
+    },
+    "Idioma_Destino": {
+        "message": "Destination Language:",
+        "description": "Idioma Destino."
+    },
+    "Grabar": {
+        "message": "Record",
+        "description": "Grabar"
+    },
+    "buscador": {
+        "message": "seeker",
+        "description": "buscador"
+    },
+    "buscar_en_google": {
+        "message": "Search in Google.",
+        "description": "Buscar información en google."
+    },
+    "definicion_en_google": {
+        "message": "Meaning in google.",
+        "description": "Significado en google."
+    },
+    "buscar_en_wikipedia": {
+        "message": "Search Wikipedia.",
+        "description": "Buscar información en Wikipedia."
+    },
+    "wordreference": {
+        "message": "On KAYAK.",
+        "description": "Buscar información en Wordreference."
+    },
+    "que_significa": {
+        "message": "In What it means.",
+        "description": "Buscar información en que_significa.com."
+    },
+    "multitraduccion": {
+        "message": "Multitraduction",
+        "description": "Traducir en varios idiomas una selección"
+    },
+    "corrector_Help": {
+        "message": "For the spell checker go to Firefox -> Add-ons -> Dictionaries \n-Include the dictionary of your choice. \n\nYou can drag this dialog with the mouse. \n\n * DOUBLE CLICK to clean this text.",
+        "description": "Ayuda para el corrector o mini pad"
+    },
+    "recordatorioSaveMiniPad": {
+        "message": "Recorded reminder! ~ Google Translate by Elinv",
+        "description": "Recordatorio grabado en el mini pad"
+    },
+    "traducidoAIdiomas": {
+        "message": "translated into language:",
+        "description": "Multitraduccion -> traducido a idioma/s:"
+    },
+    "msgTopeMultiIdiomas": {
+        "message": "Top of multi languages to translate: 10",
+        "description": "Tope de multi idiomas"
+    },
+    "msgDefinicionSinMas": {
+        "message": "Definition, Synonyms, more information",
+        "description": "Definición, Sinónimos, mas información"
+    },
+    "msgBuscarGoogle": {
+        "message": "Search in Google",
+        "description": "Buscar en Google"
+    },
+    "msgDefinicGoogle": {
+        "message": "Definition in Google",
+        "description": "Definicion en Google"
+    },
+    "msgTitMultitrad": {
+        "message": "MultiTranslator",
+        "description": "MultiTraductor"
+    },
+    "msgSeleccMultitrad": {
+        "message": "Selected",
+        "description": "Seleccionados"
+    },
+    "msgIdiomMultitrad": {
+        "message": "Languages",
+        "description": "Idiomas"
+    },
+    "msgEnviarMultitrad": {
+        "message": "Submit",
+        "description": "Enviar Botón"
+    },
+    "multitradAlerta": {
+        "message": "It is only possible to translate a word \r\no one selected paragraph at a time ",
+        "description": "Solo es posible traducir una palabra o un párrafo seleccionado a la vez"
+    }
+}

@@ -45,3 +45,9 @@ Ver ayuda en about:addons
 ![demo](./videoTut/VideoTraducMultitrad.gif)
 ![demo](./videoTut/VideoTraducPagEntera.gif)
 
+<a href="https://github.com/Elinv/Extension-Translator-for-Firefox-Browser">
+   <img src="https://avatars1.githubusercontent.com/u/18106503?s=460&v=4" 
+   title="Traductor Elinv en Google en Github" alt="Traductor Elinv en Google en Github">
+</a>
+
+

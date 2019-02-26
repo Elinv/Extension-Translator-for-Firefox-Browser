@@ -5,9 +5,7 @@ let tradElinvSpace = (function () {
    var idTabDestino;
    var winIdTabDestino;
    // variables globales contienen las letras de los idiomas
-   var codigoOrigenVar = "";
    var codigoDestinoVar = "";
-   var idiomaOrigenVar = "";
    var idiomaDestinoVar = "";
    // ---------------------------------------------------
    // solo en google
@@ -41,103 +39,10 @@ let tradElinvSpace = (function () {
    // ---------------------------------------------------
    // Obtener idiomas
    function obtieneIdiomas() {
-      // variables matriz bidimensional con idiomas origen y destino.
-      var idiomasOrigenArr = [
-         ["xx", "Elegir Idioma"],
-         ["af", "Afrikaans"],
-         ["sq", "Albanés"],
-         ["de", "Alemán"],
-         ["ar", "Árabe"],
-         ["hy", "Armenio"],
-         ["az", "Azerbaiyani"],
-         ["bn", "Bengalí"],
-         ["be", "Bielorruso"],
-         ["my", "Birmano"],
-         ["bs", "Bosnio"],
-         ["bg", "Búlgaro"],
-         ["ca", "Catalán"],
-         ["ceb", "cebuano"],
-         ["cs", "Checo"],
-         ["ny", "Chichewa"],
-         ["zh-CN", "Chino"],
-         ["ko", "Coreano"],
-         ["ht", "Criollo Haitiano"],
-         ["hr", "Croata"],
-         ["da", "Danés"],
-         ["sk", "Eslovaco"],
-         ["sl", "Esloveno"],
-         ["es", "Español"],
-         ["eo", "Esperanto"],
-         ["et", "Estonio"],
-         ["tl", "Filipino"],
-         ["fi", "Finlandés"],
-         ["fr", "Francés"],
-         ["cy", "Galés"],
-         ["gl", "Gallego"],
-         ["ka", "Georgiano"],
-         ["el", "Griego"],
-         ["gu", "Gujaratí"],
-         ["ha", "Hausa"],
-         ["iw", "Hebreo"],
-         ["hi", "Hindi"],
-         ["hmn", "Hmong"],
-         ["nl", "Holandés"],
-         ["hu", "Húngaro"],
-         ["ig", "Igbo"],
-         ["id", "Indonesio"],
-         ["en", "Inglés"],
-         ["ga", "Irlandés"],
-         ["is", "Islandés"],
-         ["it", "Italiano"],
-         ["ja", "Japonés"],
-         ["jw", "Javanés"],
-         ["km", "Jemer"],
-         ["kn", "Kannada"],
-         ["kk", "Kazajo"],
-         ["lo", "Lao"],
-         ["la", "Latín"],
-         ["lv", "Letón"],
-         ["lt", "Lituano"],
-         ["mk", "Macedonio"],
-         ["ml", "Malayalam"],
-         ["ms", "Malayo"],
-         ["mg", "Malgache"],
-         ["mt", "Maltés"],
-         ["mi", "Maorí"],
-         ["mr", "Maratí"],
-         ["mn", "Mongol"],
-         ["ne", "Nepalés"],
-         ["no", "Noruego"],
-         ["fa", "Persa"],
-         ["pl", "Polaco"],
-         ["pt", "Portugues"],
-         ["pa", "Punjabí"],
-         ["ro", "Rumano"],
-         ["ru", "Ruso"],
-         ["sr", "Serbio"],
-         ["st", "Sesotho"],
-         ["si", "Singalés"],
-         ["so", "Somalí"],
-         ["sv", "Sueco"],
-         ["su", "Sundanés"],
-         ["sw", "Swahili"],
-         ["th", "Tailandés"],
-         ["tg", "Tajik"],
-         ["ta", "Tamil"],
-         ["te", "Telugu"],
-         ["tr", "Turco"],
-         ["uk", "Ucraniano"],
-         ["ur", "Urdu"],
-         ["uz", "Uzbeco"],
-         ["eu", "Vasco"],
-         ["vi", "Vietnamita"],
-         ["yi", "Yiddish"],
-         ["yo", "Yoruba"],
-         ["zu", "Zulú"]
-      ];
-
+      // variables matriz bidimensional con idioma destino.
       var idiomasDestinoArr = [
          ["xx", "Elegir Idioma"],
+         ["auto", "Browser language"],
          ["af", "Afrikaans"],
          ["sq", "Albanés"],
          ["de", "Alemán"],
@@ -233,44 +138,31 @@ let tradElinvSpace = (function () {
       // ---------------------------------------------------
       // idiomas -> select name="idOrigen"
       var cslGet = chrome.storage.local.get;
-      cslGet("idOrigen", res => {
-         // idioma de origen de acuerdo a la elección del usuario
-         var i = res.idOrigen || 0;
-         // si aun no seleccionó ninguna opción, por defecto asignamos el ingles
-         if (i == 0) {
-            codigoOrigenVar = idiomasOrigenArr[42][0];
-            idiomaOrigenVar = idiomasOrigenArr[42][1];
+      // select name="idDestino"
+      // idioma de destino de la traducción conforme elección del usuario
+      cslGet("idDestino", res => {
+         i = res.idDestino || 1;
+         // si aun no seleccionó ninguna opción,
+         // le asignamos el por defecto del navegador
+         if (i == 1) {
+            // obtenemos el lenguaje del navegador
+            var idioma = navigator.language || navigator.userLanguage;
+            // solo las dos primeras letras
+            idioma = idioma.substring(0, 2);
+            // asignamos
+            codigoDestinoVar = idioma;
+            // hallamos el nombre del lenguaje del navegador en base a su clave
+            for (prop in idiomasDestinoArr) {
+               if (idiomasDestinoArr[prop][0] === "es") {
+                  idiomaDestinoVar = idiomasDestinoArr[prop][1];
+                  break;
+               }
+            }
          } else {
             // sino selección del usuario
-            codigoOrigenVar = idiomasOrigenArr[i][0];
-            idiomaOrigenVar = idiomasOrigenArr[i][1];
+            codigoDestinoVar = idiomasDestinoArr[i][0];
+            idiomaDestinoVar = idiomasDestinoArr[i][1];
          }
-         // select name="idDestino"
-         // idioma de destino de la traducción conforme elección del usuario
-         cslGet("idDestino", res => {
-            i = res.idDestino || 0;
-            // si aun no seleccionó ninguna opción,
-            // le asignamos el por defecto del navegador
-            if (i == 0) {
-               // obtenemos el lenguaje del navegador
-               var idioma = navigator.language || navigator.userLanguage;
-               // solo las dos primeras letras
-               idioma = idioma.substring(0, 2);
-               // asignamos
-               codigoDestinoVar = idioma;
-               // hallamos el nombre del lenguaje del navegador en base a su clave
-               for (prop in idiomasDestinoArr) {
-                  if (idiomasDestinoArr[prop][0] === "es") {
-                     idiomaDestinoVar = idiomasDestinoArr[prop][1];
-                     break;
-                  }
-               }
-            } else {
-               // sino selección del usuario
-               codigoDestinoVar = idiomasDestinoArr[i][0];
-               idiomaDestinoVar = idiomasDestinoArr[i][1];
-            }
-         });
       });
    }
 
@@ -288,8 +180,6 @@ let tradElinvSpace = (function () {
       // Es un móvil
       msj("../ico/firefox.png", "Es un telefono móvil");
    } else {
-      // Obtenemos los idiomas
-      obtieneIdiomas();
       // Escritorio
       escritorio();
    }
@@ -350,6 +240,32 @@ let tradElinvSpace = (function () {
          }
       };`;
       // ------------------------------------------------------
+      // MARK: insertText
+      var insertText = `
+         function insertText(input, text) {
+            if (input == undefined) {
+            return;
+            }
+            var scrollPos = input.scrollTop;
+            var pos = 0;
+            var browser = ((input.selectionStart || input.selectionStart == '0') ?
+            'ff' : (document.selection ? 'ie' : false));
+            if (browser == 'ff') {
+            pos = input.selectionStart
+            };
+            var front = (input.value).substring(0, pos);
+            var back = (input.value).substring(pos, input.value.length);
+            input.value = front + "✅" + text + "🌀️" + back;
+            pos = pos + text.length;
+            if (browser == 'ff') {
+            input.selectionStart = pos;
+            input.selectionEnd = pos;
+            input.focus();
+            }
+            input.scrollTop = scrollPos;
+         }
+         `;
+      // ------------------------------------------------------
 
       // ------------------------------------------------------
       // ACCIONES DEL MENU CONTEXTUAL
@@ -360,16 +276,22 @@ let tradElinvSpace = (function () {
          idiomSelRec = [];
          switch (info.menuItemId) {
             case "trad_Selec_elinv_IN":
+               // obtenemos el idioma destino actualizado para traducir.
+               obtieneIdiomas();
                idTabDestino = tab.id;
                winIdTabDestino = tab.windowId;
                tradEnGoogle = tradEnGoogleArr.traduce_en_el_lugar;
                obtieneSeleccion();
                break;
             case "trad_Selec_elinv_OUT":
+               // obtenemos el idioma destino actualizado para traducir.
+               obtieneIdiomas();
                tradEnGoogle = tradEnGoogleArr.traduce_en_google;
                obtieneSeleccion();
                break;
             case "trad_Pag_elinv":
+               // obtenemos el idioma destino actualizado para traducir.
+               obtieneIdiomas();
                tradEnGoogle = tradEnGoogleArr.traduce_web_completa;
                traducirWebEntera();
                break;
@@ -413,8 +335,7 @@ let tradElinvSpace = (function () {
       // ---------------------------------------------------
       // Elemento visible solo si existe selección
       // para traducir selección y reemplazar en el mismo lugar
-      chrome.contextMenus.create(
-         {
+      chrome.contextMenus.create({
             id: "trad_Selec_elinv_IN", //Identificador
             icons: {
                "256": "ico/selectIN.png"
@@ -426,8 +347,7 @@ let tradElinvSpace = (function () {
       );
       // Elemento visible solo si existe selección
       // para traducir selección en la página de google
-      chrome.contextMenus.create(
-         {
+      chrome.contextMenus.create({
             id: "trad_Selec_elinv_OUT", //Identificador
             icons: {
                "256": "ico/selectOUT.png"
@@ -438,8 +358,7 @@ let tradElinvSpace = (function () {
          onCreated
       );
       // Elemento permanente para traducir web entera
-      chrome.contextMenus.create(
-         {
+      chrome.contextMenus.create({
             id: "trad_Pag_elinv", //Identificador
             icons: {
                "256": "ico/firefox.png"
@@ -451,8 +370,7 @@ let tradElinvSpace = (function () {
       );
       // Elemento visible solo si existe selección
       // Multitraducción
-      chrome.contextMenus.create(
-         {
+      chrome.contextMenus.create({
             id: "multitraduccion",
             icons: {
                "256": "ico/lampara.png"
@@ -466,8 +384,7 @@ let tradElinvSpace = (function () {
       // ---------------------------------------------------
       // ZONA DE INFORMACION -> SOLO si existe selección
       // Buscar en Google
-      chrome.contextMenus.create(
-         {
+      chrome.contextMenus.create({
             id: "buscar_en_google",
             icons: {
                "256": "ico/google.png"
@@ -478,8 +395,7 @@ let tradElinvSpace = (function () {
          onCreated
       );
       // Definición en Google
-      chrome.contextMenus.create(
-         {
+      chrome.contextMenus.create({
             id: "definicion_en_google",
             icons: {
                "256": "ico/google1.png"
@@ -490,8 +406,7 @@ let tradElinvSpace = (function () {
          onCreated
       );
       // Buscar en wikipedia
-      chrome.contextMenus.create(
-         {
+      chrome.contextMenus.create({
             id: "buscar_en_wikipedia",
             icons: {
                "256": "ico/wikipedia.png"
@@ -502,8 +417,7 @@ let tradElinvSpace = (function () {
          onCreated
       );
       // En wordreference
-      chrome.contextMenus.create(
-         {
+      chrome.contextMenus.create({
             id: "wordreference",
             icons: {
                "256": "ico/wordreference.png"
@@ -514,8 +428,7 @@ let tradElinvSpace = (function () {
          onCreated
       );
       // En que_significa
-      chrome.contextMenus.create(
-         {
+      chrome.contextMenus.create({
             id: "que_significa",
             icons: {
                "256": "ico/Argentina.png"
@@ -545,17 +458,14 @@ let tradElinvSpace = (function () {
             ) {
                infoELINV(result.toString());
             } else {
-               // Para la traducción
-               // obtenemos el lenguaje del navegador
-               var idiomaNavegador = navigator.language || navigator.userLanguage;
-               // solo las dos primeras letras
-               idiomaNavegador = idiomaNavegador.substring(0, 2);
-               var urlTRADUC =`https://translate.google.com/?elinv=traduc&hl=
-                  ${idiomaNavegador}#${codigoOrigenVar}/${codigoDestinoVar}/
-                  ${result.toString()}`;
+               // MARK: TRADUCION CORREGIR
+               // traduce automáticamente detectando el idioma del texto original al
+               // idioma del navegador si no se ha seleccionado en las opciones otro idioma
+               var urlTRADUC = "https://translate.google.com/?elinv=traduc&hl=auto&sl=auto" +
+                  "&tl=" + codigoDestinoVar +
+                  "&text=" + result.toString();
 
-               chrome.tabs.create(
-                  {
+               chrome.tabs.create({
                      url: chrome.extension.getURL(urlTRADUC)
                   },
                   function (tab) {
@@ -710,7 +620,7 @@ let tradElinvSpace = (function () {
                   //console.log(result.toString());
                }
                var seleccion =
-               // MARK: GET SELECCION
+                  // MARK: GET SELECCION
                   `
                     // obtenemos la variable
                     var respuesta ="${message.datos}";
@@ -742,28 +652,7 @@ let tradElinvSpace = (function () {
                            rango.insertNode(node);    
                         }
                      }else{
-                        function insertText(input, text) {
-                           if (input == undefined) {
-                             return;
-                           }
-                           var scrollPos = input.scrollTop;
-                           var pos = 0;
-                           var browser = ((input.selectionStart || input.selectionStart == '0') ?
-                           'ff' : (document.selection ? 'ie' : false));
-                           if (browser == 'ff') {
-                             pos = input.selectionStart
-                           };
-                           var front = (input.value).substring(0, pos);
-                           var back = (input.value).substring(pos, input.value.length);
-                           input.value = front + "✅" + text + "🌀️" + back;
-                           pos = pos + text.length;
-                           if (browser == 'ff') {
-                             input.selectionStart = pos;
-                             input.selectionEnd = pos;
-                             input.focus();
-                           }
-                           input.scrollTop = scrollPos;
-                        }
+                        ${insertText}
                         var elem = gSE(1);
                         // si es un iframe
                         if(elem.nodeName == "IFRAME"){
@@ -786,7 +675,7 @@ let tradElinvSpace = (function () {
                            insertText(elem, " " + respuesta + " ");
                         }
                      }
-                  `;              
+                  `;
                var ejecutaScript = browser.tabs.executeScript({
                   code: seleccion
                });
@@ -873,12 +762,6 @@ let tradElinvSpace = (function () {
                codIdiomSelRec = message.codigoOpciones;
                multitraductor("obtenido_Idiomas", idiomSelRec, codIdiomSelRec);
             }
-            // si se grabó algún cambio en los idiomas
-            // en la pagina de scripts opciones.js --> entonces:
-            if (message.refresh == "renovado idiomas") {
-               // actualizamos las variables globales de los idiomas
-               obtieneIdiomas();
-            }
             if (typeof message.url == "undefined") {
                //console.log("message.url es undefined");
             } else {
@@ -944,8 +827,7 @@ let tradElinvSpace = (function () {
                   idGoogleIN = tab.id;
 
                   browser.tabs.executeScript(
-                     tab.id,
-                     {
+                     tab.id, {
                         file: "./panel/multitradScript.js"
                      },
                      function () {
@@ -1005,7 +887,7 @@ let tradElinvSpace = (function () {
                //console.log(`Con éxito`);
             }
             //  control de errores y solo si el elemento existe
-            var makeEstVisual =  `
+            var makeEstVisual = `
                                  try{
                                     if(typeof document.getElementById("dialogElv")!=="undefined"){
                                        document.getElementById("dialogElv").style.visibility = "${estadoVisual}";
@@ -1124,14 +1006,7 @@ let tradElinvSpace = (function () {
       // Mensajes al usuario
       function msj(httpIcon, mensaje) {
          if (mensaje == 1) {
-            // obtenemos los idiomas para la traducción.
-            obtieneIdiomas();
-            // informamos que idiomas estamos traduciendo
-            mensaje =
-               idiomaOrigenVar +
-               "(" +
-               codigoOrigenVar +
-               ") - " +
+            mensaje = "🎡 ==> " +
                idiomaDestinoVar +
                "(" +
                codigoDestinoVar +

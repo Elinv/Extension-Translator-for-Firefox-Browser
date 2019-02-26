@@ -1,100 +1,8 @@
 let tradElinvOpciones = function () {
-    var idiomasOrigen = [
-        ["xx", "Elegir Idioma"],
-        ["af", "Afrikaans"],
-        ["sq", "Albanés"],
-        ["de", "Alemán"],
-        ["ar", "Árabe"],
-        ["hy", "Armenio"],
-        ["az", "Azerbaiyani"],
-        ["bn", "Bengalí"],
-        ["be", "Bielorruso"],
-        ["my", "Birmano"],
-        ["bs", "Bosnio"],
-        ["bg", "Búlgaro"], //10
-        ["ca", "Catalán"],
-        ["ceb", "cebuano"],
-        ["cs", "Checo"],
-        ["ny", "Chichewa"],
-        ["zh-CN", "Chino"],
-        ["ko", "Coreano"],
-        ["ht", "Criollo Haitiano"],
-        ["hr", "Croata"],
-        ["da", "Danés"],
-        ["sk", "Eslovaco"], //20
-        ["sl", "Esloveno"],
-        ["es", "Español"],
-        ["eo", "Esperanto"],
-        ["et", "Estonio"],
-        ["tl", "Filipino"],
-        ["fi", "Finlandés"],
-        ["fr", "Francés"],
-        ["cy", "Galés"],
-        ["gl", "Gallego"],
-        ["ka", "Georgiano"], //30
-        ["el", "Griego"],
-        ["gu", "Gujaratí"],
-        ["ha", "Hausa"],
-        ["iw", "Hebreo"],
-        ["hi", "Hindi"],
-        ["hmn", "Hmong"],
-        ["nl", "Holandés"],
-        ["hu", "Húngaro"],
-        ["ig", "Igbo"],
-        ["id", "Indonesio"], //40
-        ["en", "Inglés"],
-        ["ga", "Irlandés"],
-        ["is", "Islandés"],
-        ["it", "Italiano"],
-        ["ja", "Japonés"],
-        ["jw", "Javanés"],
-        ["km", "Jemer"],
-        ["kn", "Kannada"],
-        ["kk", "Kazajo"],
-        ["lo", "Lao"], //50
-        ["la", "Latín"],
-        ["lv", "Letón"],
-        ["lt", "Lituano"],
-        ["mk", "Macedonio"],
-        ["ml", "Malayalam"],
-        ["ms", "Malayo"],
-        ["mg", "Malgache"],
-        ["mt", "Maltés"],
-        ["mi", "Maorí"],
-        ["mr", "Maratí"], //60
-        ["mn", "Mongol"],
-        ["ne", "Nepalés"],
-        ["no", "Noruego"],
-        ["fa", "Persa"],
-        ["pl", "Polaco"],
-        ["pt", "Portugues"],
-        ["pa", "Punjabí"],
-        ["ro", "Rumano"],
-        ["ru", "Ruso"],
-        ["sr", "Serbio"], //70
-        ["st", "Sesotho"],
-        ["si", "Singalés"],
-        ["so", "Somalí"],
-        ["sv", "Sueco"],
-        ["su", "Sundanés"],
-        ["sw", "Swahili"],
-        ["th", "Tailandés"],
-        ["tg", "Tajik"],
-        ["ta", "Tamil"],
-        ["te", "Telugu"], //80
-        ["tr", "Turco"],
-        ["uk", "Ucraniano"],
-        ["ur", "Urdu"],
-        ["uz", "Uzbeco"],
-        ["eu", "Vasco"],
-        ["vi", "Vietnamita"],
-        ["yi", "Yiddish"],
-        ["yo", "Yoruba"],
-        ["zu", "Zulú"],
-    ];
-
+   
     var idiomasDestino = [
         ["xx", "Elegir Idioma"],
+        ["auto", "Browser language"],
         ["af", "Afrikaans"],
         ["sq", "Albanés"],
         ["de", "Alemán"],
@@ -187,16 +95,7 @@ let tradElinvOpciones = function () {
         ["yo", "Yoruba"],
         ["zu", "Zulú"] //90
     ];
-    // llenamos select idiomas origen
-    var x = document.getElementById("idOrigen");
-    for (var i = 0; i < idiomasOrigen.length; i++) {
-        try {
-            var option = document.createElement("option");
-            option.value = idiomasOrigen[i][0];
-            option.text = idiomasOrigen[i][1];
-            x.add(option);
-        } catch (err) {}
-    }
+
     // llenamos select idiomas destino
     var x = document.getElementById("idDestino");
     for (var i = 0; i < idiomasDestino.length; i++) {
@@ -212,21 +111,11 @@ let tradElinvOpciones = function () {
     function saveOptions(e) {
         // Salvamos los input type select
         // -------------------------------------------------------------------------
-        // select name="idOrigen"
-        chrome.storage.local.set({
-            idOrigen: document.querySelector('select[name="idOrigen"]').selectedIndex
-        });
         // select name="idDestino"
         chrome.storage.local.set({
             idDestino: document.querySelector('select[name="idDestino"]').selectedIndex
         });
         // -------------------------------------------------------------------------      
-        // enviamos mensaje al background de que 
-        // se han grabado cambios en los idiomas para su refresco y 
-        // puesta en uso inmediatamente.
-        browser.runtime.sendMessage({
-            "refresh": "renovado idiomas"
-        });
     }
 
     //Recuperar opciones grabadas
@@ -235,30 +124,10 @@ let tradElinvOpciones = function () {
         // ---------------------------------------------------
         var cslGet = chrome.storage.local.get;
         var estadoSel = -1;
-        // select name="idOrigen" 1ra.Ejecución por defecto = 0
-        cslGet('idOrigen', (res) => {
-            if (typeof (res.idOrigen) === 'undefined' || res.idOrigen === null || res.idOrigen === 0) {
-                estadoSel = 0;
-                var idIdiomaOrigen = 0;
-                for (var i = 0; i < idiomasOrigen.length; i++) {
-                    if (idiomasOrigen[i][0] == "en") {
-                        idIdiomaOrigen = i;
-                        break;
-                    }
-                }
-                chrome.storage.local.set({
-                    idOrigen: idIdiomaOrigen
-                });
-            } else {
-                estadoSel = res.idOrigen;
-            }
-            document.querySelector('select[name="idOrigen"]').selectedIndex = estadoSel;
-        });
-
-        // select name="idDestino" 1ra.Ejecución por defecto = 0
+        // select name="idDestino" 1ra.Ejecución por defecto = 1 => detectamos lenguaje del navegador
         cslGet('idDestino', (res) => {
             if (typeof (res.idDestino) === 'undefined' || res.idDestino === null || res.idDestino === 0) {
-                estadoSel = 0;
+                estadoSel = 1;
                 // obtenemos el lenguaje del navegador
                 var idioma = navigator.language || navigator.userLanguage;
                 // solo las dos primeras letras
@@ -328,7 +197,7 @@ let tradElinvOpciones = function () {
 
     // funciones para mostrar la ayuda
     // -------------------------------
-    function openCity(ayuda) {
+    function openHelpElinv(ayuda) {
         var i, tabcontent, tablinks;
         tabcontent = document.getElementsByClassName("tabcontent");
         for (i = 0; i < tabcontent.length; i++) {
@@ -348,30 +217,30 @@ let tradElinvOpciones = function () {
     // -------------------------------
     document.getElementById("ayuda1").addEventListener("click", function () {
         if (idioma === "ES") {
-            openCity('ayuda1ScreenES');
+            openHelpElinv('ayuda1ScreenES');
         } else if (idioma === "EN") {
-            openCity('ayuda1ScreenEN');
+            openHelpElinv('ayuda1ScreenEN');
         }
     });
     document.getElementById("ayuda2").addEventListener("click", function () {
         if (idioma === "ES") {
-            openCity('ayuda2ScreenES');
+            openHelpElinv('ayuda2ScreenES');
         } else if (idioma === "EN") {
-            openCity('ayuda2ScreenEN');
+            openHelpElinv('ayuda2ScreenEN');
         }
     });
     document.getElementById("ayuda3").addEventListener("click", function () {
         if (idioma === "ES") {
-            openCity('ayuda3ScreenES');
+            openHelpElinv('ayuda3ScreenES');
         } else if (idioma === "EN") {
-            openCity('ayuda3ScreenEN');
+            openHelpElinv('ayuda3ScreenEN');
         }
     });
     document.getElementById("ayuda4").addEventListener("click", function () {
         if (idioma === "ES") {
-            openCity('ayuda4ScreenES');
+            openHelpElinv('ayuda4ScreenES');
         } else if (idioma === "EN") {
-            openCity('ayuda4ScreenEN');
+            openHelpElinv('ayuda4ScreenEN');
         }
     });
     // -------------------------------
@@ -379,30 +248,30 @@ let tradElinvOpciones = function () {
     // -------------------------------    
     document.getElementById("tutorialVideoInGoogle").addEventListener("click", function () {
         if (idioma === "ES") {
-            openCity('tutorialVidTradInGoogle');
+            openHelpElinv('tutorialVidTradInGoogle');
         } else if (idioma === "EN") {
-            openCity('tutorialVidTradInGoogle');
+            openHelpElinv('tutorialVidTradInGoogle');
         }
     });
     document.getElementById("tutorialVideoInSitu").addEventListener("click", function () {
         if (idioma === "ES") {
-            openCity('tutorialVidTradInSitu');
+            openHelpElinv('tutorialVidTradInSitu');
         } else if (idioma === "EN") {
-            openCity('tutorialVidTradInSitu');
+            openHelpElinv('tutorialVidTradInSitu');
         }
     });
     document.getElementById("tutorialVideoMultitrad").addEventListener("click", function () {
         if (idioma === "ES") {
-            openCity('tutorialVidTradMultitrad');
+            openHelpElinv('tutorialVidTradMultitrad');
         } else if (idioma === "EN") {
-            openCity('tutorialVidTradMultitrad');
+            openHelpElinv('tutorialVidTradMultitrad');
         }
     });
     document.getElementById("tutorialVideoPagEntera").addEventListener("click", function () {
         if (idioma === "ES") {
-            openCity('tutorialVidTradPagEntera');
+            openHelpElinv('tutorialVidTradPagEntera');
         } else if (idioma === "EN") {
-            openCity('tutorialVidTradPagEntera');
+            openHelpElinv('tutorialVidTradPagEntera');
         }
     });            
     // -------------------------------

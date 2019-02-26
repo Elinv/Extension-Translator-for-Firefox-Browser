@@ -1,0 +1,14 @@
+{
+  "chrome.storage.local.clear": {
+    "scope": "javascript",
+    "prefix": "chrome.storage.local.clear",
+    "body": [
+      "chrome.storage.local.clear(function () {",
+      "var error = chrome.runtime.lastError;",
+      "if (error) {",
+      "console.error(error);",
+      "}",
+      "});"
+    ],
+    "description": "chrome.storage.local.clear"
+  }}

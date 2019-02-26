@@ -968,7 +968,7 @@ let tradElinvSpace = (function () {
                break;
          }
          // Producimos la información
-         try {
+         try { 
             function onCreated(tab) {
                //console.log(`Created new tab: ${tab.id}`)
             }

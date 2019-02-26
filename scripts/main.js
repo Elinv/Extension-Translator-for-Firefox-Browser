@@ -966,7 +966,7 @@ let tradElinvSpace = (function () {
                urlElinv =
                   "https://que-significa.com/significado.php?termino=" + texto;
                break;
-         }
+         } 
          // Producimos la información
          try { 
             function onCreated(tab) {

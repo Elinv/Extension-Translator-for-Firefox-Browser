@@ -2,6 +2,7 @@
    <img src="./ico/firefox.png" 
    title="Ayudante del Traductor de Google" alt="Ayudante del Traductor de Google">
 </a><br>
+
 # 2019 @ Febrero/25  - Actualización del Traductor Elinv en Google
 ## Traductor de Google por Elinv
 

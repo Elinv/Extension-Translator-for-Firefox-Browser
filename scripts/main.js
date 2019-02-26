@@ -205,6 +205,7 @@ let tradElinvSpace = (function () {
       // ------------------------------------------------------
 
       // ------------------------------------------------------
+      // funciones para tab.executeScript
       // MARK: gSE     
       var gSE = `var gSE = (opc) => {
          let cfg = { ta: "TEXTAREA", inp: "INPUT", txt: "text", ifr: "IFRAME" };
@@ -333,111 +334,114 @@ let tradElinvSpace = (function () {
       // ---------------------------------------------------
       // ELEMENTOS DEL MENU CONTEXTUAL
       // ---------------------------------------------------
-      // Elemento visible solo si existe selección
-      // para traducir selección y reemplazar en el mismo lugar
-      chrome.contextMenus.create({
-            id: "trad_Selec_elinv_IN", //Identificador
-            icons: {
-               "256": "ico/selectIN.png"
+      // Function arrow autoejecutable
+      (() => {
+         // Elemento visible solo si existe selección
+         // para traducir selección y reemplazar en el mismo lugar
+         chrome.contextMenus.create({
+               id: "trad_Selec_elinv_IN", //Identificador
+               icons: {
+                  "256": "ico/selectIN.png"
+               },
+               title: chrome.i18n.getMessage("trad_sel"), // traducción
+               contexts: ["selection"] //"all" "page", "selection", "image", "link"
             },
-            title: chrome.i18n.getMessage("trad_sel"), // traducción
-            contexts: ["selection"] //"all" "page", "selection", "image", "link"
-         },
-         onCreated
-      );
-      // Elemento visible solo si existe selección
-      // para traducir selección en la página de google
-      chrome.contextMenus.create({
-            id: "trad_Selec_elinv_OUT", //Identificador
-            icons: {
-               "256": "ico/selectOUT.png"
+            onCreated
+         );
+         // Elemento visible solo si existe selección
+         // para traducir selección en la página de google
+         chrome.contextMenus.create({
+               id: "trad_Selec_elinv_OUT", //Identificador
+               icons: {
+                  "256": "ico/selectOUT.png"
+               },
+               title: chrome.i18n.getMessage("trad_sel_OUT"), // traducción
+               contexts: ["selection"]
             },
-            title: chrome.i18n.getMessage("trad_sel_OUT"), // traducción
-            contexts: ["selection"]
-         },
-         onCreated
-      );
-      // Elemento permanente para traducir web entera
-      chrome.contextMenus.create({
-            id: "trad_Pag_elinv", //Identificador
-            icons: {
-               "256": "ico/firefox.png"
+            onCreated
+         );
+         // Elemento permanente para traducir web entera
+         chrome.contextMenus.create({
+               id: "trad_Pag_elinv", //Identificador
+               icons: {
+                  "256": "ico/firefox.png"
+               },
+               title: chrome.i18n.getMessage("trad_pag"), // traducción
+               contexts: ["all"]
             },
-            title: chrome.i18n.getMessage("trad_pag"), // traducción
-            contexts: ["all"]
-         },
-         onCreated
-      );
-      // Elemento visible solo si existe selección
-      // Multitraducción
-      chrome.contextMenus.create({
-            id: "multitraduccion",
-            icons: {
-               "256": "ico/lampara.png"
+            onCreated
+         );
+         // Elemento visible solo si existe selección
+         // Multitraducción
+         chrome.contextMenus.create({
+               id: "multitraduccion",
+               icons: {
+                  "256": "ico/lampara.png"
+               },
+               title: chrome.i18n.getMessage("multitraduccion"),
+               contexts: ["selection"]
             },
-            title: chrome.i18n.getMessage("multitraduccion"),
-            contexts: ["selection"]
-         },
-         onCreated
-      );
-      // ---------------------------------------------------
-      // ---------------------------------------------------
-      // ZONA DE INFORMACION -> SOLO si existe selección
-      // Buscar en Google
-      chrome.contextMenus.create({
-            id: "buscar_en_google",
-            icons: {
-               "256": "ico/google.png"
+            onCreated
+         );
+         // ---------------------------------------------------
+         // ---------------------------------------------------
+         // ZONA DE INFORMACION -> SOLO si existe selección
+         // Buscar en Google
+         chrome.contextMenus.create({
+               id: "buscar_en_google",
+               icons: {
+                  "256": "ico/google.png"
+               },
+               title: chrome.i18n.getMessage("buscar_en_google"),
+               contexts: ["selection"]
             },
-            title: chrome.i18n.getMessage("buscar_en_google"),
-            contexts: ["selection"]
-         },
-         onCreated
-      );
-      // Definición en Google
-      chrome.contextMenus.create({
-            id: "definicion_en_google",
-            icons: {
-               "256": "ico/google1.png"
+            onCreated
+         );
+         // Definición en Google
+         chrome.contextMenus.create({
+               id: "definicion_en_google",
+               icons: {
+                  "256": "ico/google1.png"
+               },
+               title: chrome.i18n.getMessage("definicion_en_google"),
+               contexts: ["selection"]
             },
-            title: chrome.i18n.getMessage("definicion_en_google"),
-            contexts: ["selection"]
-         },
-         onCreated
-      );
-      // Buscar en wikipedia
-      chrome.contextMenus.create({
-            id: "buscar_en_wikipedia",
-            icons: {
-               "256": "ico/wikipedia.png"
+            onCreated
+         );
+         // Buscar en wikipedia
+         chrome.contextMenus.create({
+               id: "buscar_en_wikipedia",
+               icons: {
+                  "256": "ico/wikipedia.png"
+               },
+               title: chrome.i18n.getMessage("buscar_en_wikipedia"),
+               contexts: ["selection"]
             },
-            title: chrome.i18n.getMessage("buscar_en_wikipedia"),
-            contexts: ["selection"]
-         },
-         onCreated
-      );
-      // En wordreference
-      chrome.contextMenus.create({
-            id: "wordreference",
-            icons: {
-               "256": "ico/wordreference.png"
+            onCreated
+         );
+         // En wordreference
+         chrome.contextMenus.create({
+               id: "wordreference",
+               icons: {
+                  "256": "ico/wordreference.png"
+               },
+               title: chrome.i18n.getMessage("wordreference"),
+               contexts: ["selection"]
             },
-            title: chrome.i18n.getMessage("wordreference"),
-            contexts: ["selection"]
-         },
-         onCreated
-      );
-      // En que_significa
-      chrome.contextMenus.create({
-            id: "que_significa",
-            icons: {
-               "256": "ico/Argentina.png"
+            onCreated
+         );
+         // En que_significa
+         chrome.contextMenus.create({
+               id: "que_significa",
+               icons: {
+                  "256": "ico/Argentina.png"
+               },
+               title: chrome.i18n.getMessage("que_significa"),
+               contexts: ["selection"]
             },
-            title: chrome.i18n.getMessage("que_significa"),
-            contexts: ["selection"]
-         },
-         onCreated
-      );
+            onCreated
+         );
+      })();
       // ---------------------------------------------------
 
       // ---------------------------------------------------
@@ -857,37 +861,39 @@ let tradElinvSpace = (function () {
       //---------------------------------------------
       // INICIO CORRECTOR ORTOGRAFICO
       //---------------------------------------------
-      // tecla abreviada para el corrector ortográfico -> Ctrl+Shift+U
-      let gettingAllCommands = browser.commands.getAll();
-      gettingAllCommands.then(commands => {
-         for (let command of commands) {
-            //console.log(command);
-         }
-      });
-      // variable para ver u ocultar el corrector
-      var ver = false;
-      browser.commands.onCommand.addListener(command => {
-         function ejecutado(result) {
-            // discriminamos la información recibida
-            var partes;
-            partes = result.toString().split(" ");
-            // solo lo cargamos una vez al script
-            if (partes[1].localeCompare("false") === 0) {
-               inyectaCorrector();
+      // Function arrow autoejecutable
+      (() => {
+         // tecla abreviada para el corrector ortográfico -> Ctrl+Shift+U
+         let gettingAllCommands = browser.commands.getAll();
+         gettingAllCommands.then(commands => {
+            for (let command of commands) {
+               //console.log(command);
             }
-            // comprobamos estado de visibilidad y establecemos la variable
-            var estadoVisual = "hidden";
-            if (partes[0].localeCompare("hidden") === 0) {
-               estadoVisual = "visible";
-            } else {
-               estadoVisual = "hidden";
-            }
-            // enviamos a la pagina la orden
-            function onExecEstVisual(result) {
-               //console.log(`Con éxito`);
-            }
-            //  control de errores y solo si el elemento existe
-            var makeEstVisual = `
+         });
+         // variable para ver u ocultar el corrector
+         var ver = false;
+         browser.commands.onCommand.addListener(command => {
+            function ejecutado(result) {
+               // discriminamos la información recibida
+               var partes;
+               partes = result.toString().split(" ");
+               // solo lo cargamos una vez al script
+               if (partes[1].localeCompare("false") === 0) {
+                  inyectaCorrector();
+               }
+               // comprobamos estado de visibilidad y establecemos la variable
+               var estadoVisual = "hidden";
+               if (partes[0].localeCompare("hidden") === 0) {
+                  estadoVisual = "visible";
+               } else {
+                  estadoVisual = "hidden";
+               }
+               // enviamos a la pagina la orden
+               function onExecEstVisual(result) {
+                  //console.log(`Con éxito`);
+               }
+               //  control de errores y solo si el elemento existe
+               var makeEstVisual = `
                                  try{
                                     if(typeof document.getElementById("dialogElv")!=="undefined"){
                                        document.getElementById("dialogElv").style.visibility = "${estadoVisual}";
@@ -895,13 +901,13 @@ let tradElinvSpace = (function () {
                                  }catch(e){}
                                  `;
 
-            var executing = browser.tabs.executeScript({
-               code: makeEstVisual
-            });
-            executing.then(onExecEstVisual, conError);
-         }
-         // -----
-         var seleccion = `var respuesta = "";
+               var executing = browser.tabs.executeScript({
+                  code: makeEstVisual
+               });
+               executing.then(onExecEstVisual, conError);
+            }
+            // -----
+            var seleccion = `var respuesta = "";
                             if (document.getElementById("dialogElv")) {
                                 respuesta = document.getElementById("dialogElv").style.visibility.toString();
                                 respuesta += " true";
@@ -910,23 +916,24 @@ let tradElinvSpace = (function () {
                                 respuesta += " false";
                             }
                             `;
-         var ejecutaScript = browser.tabs.executeScript({
-            code: seleccion
+            var ejecutaScript = browser.tabs.executeScript({
+               code: seleccion
+            });
+            ejecutaScript.then(ejecutado, conError);
          });
-         ejecutaScript.then(ejecutado, conError);
-      });
 
-      function inyectaCorrector() {
-         function ejecutado(result) {
-            // con la selección obtenida mostramos el tipo de información
-            //console.log(result.toString());
+         function inyectaCorrector() {
+            function ejecutado(result) {
+               // con la selección obtenida mostramos el tipo de información
+               //console.log(result.toString());
+            }
+            var executing = browser.tabs.executeScript({
+               file: "./scripts/creaElemCorrector.js",
+               allFrames: true
+            });
+            executing.then(ejecutado, conError);
          }
-         var executing = browser.tabs.executeScript({
-            file: "./scripts/creaElemCorrector.js",
-            allFrames: true
-         });
-         executing.then(ejecutado, conError);
-      }
+      })();
       //---------------------------------------------
       // FIN CORRECTOR ORTOGRAFICO
       //---------------------------------------------

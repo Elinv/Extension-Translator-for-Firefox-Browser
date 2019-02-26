@@ -1,5 +1,7 @@
-# 2019 @ Enero/14  - Actualización del Traductor Elinv en Google
+# 2019 @ Febrero/25  - Actualización del Traductor Elinv en Google
 ## Traductor de Google por Elinv
+
+Agregado funcionalidad para traducir desde y hacia input e iframe.
 
 Ver ayuda en about:addons
 

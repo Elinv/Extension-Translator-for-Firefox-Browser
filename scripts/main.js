@@ -7,6 +7,7 @@ let tradElinvSpace = (function () {
    // variables globales contienen las letras de los idiomas
    var codigoDestinoVar = "";
    var idiomaDestinoVar = "";
+   var seletRapida = false;
    // ---------------------------------------------------
    // solo en google
    var tradEnGoogleArr = {
@@ -278,7 +279,7 @@ let tradElinvSpace = (function () {
          switch (info.menuItemId) {
             case "trad_Selec_elinv_IN":
                // obtenemos el idioma destino actualizado para traducir.
-               obtieneIdiomas();
+               if (seletRapida == false){obtieneIdiomas()};
                idTabDestino = tab.id;
                winIdTabDestino = tab.windowId;
                tradEnGoogle = tradEnGoogleArr.traduce_en_el_lugar;
@@ -286,13 +287,13 @@ let tradElinvSpace = (function () {
                break;
             case "trad_Selec_elinv_OUT":
                // obtenemos el idioma destino actualizado para traducir.
-               obtieneIdiomas();
+               if (seletRapida == false){obtieneIdiomas()};
                tradEnGoogle = tradEnGoogleArr.traduce_en_google;
                obtieneSeleccion();
                break;
             case "trad_Pag_elinv":
                // obtenemos el idioma destino actualizado para traducir.
-               obtieneIdiomas();
+               if (seletRapida == false){obtieneIdiomas()};
                tradEnGoogle = tradEnGoogleArr.traduce_web_completa;
                traducirWebEntera();
                break;
@@ -371,6 +372,59 @@ let tradElinvSpace = (function () {
             },
             onCreated
          );
+         // idiomas para selección rápida
+         var idiDestArrSelRap = [
+            ["sinSel", "Quick Selection"],
+            ["en", "English ~ Inglés"],
+            ["es", "Spanish ~ Español"],
+            ["fr", "French ~ Francés"],
+            ["it", "Italian ~ Italiano"],
+            ["zh-CN", "Chinese (Traditional) ~ Chino (Tradicional)"],
+            ["zh-TW", "Chinese (Simplified) ~ Chino (Simplificado)"],
+            ["ko", "Korean ~ Coreano"],
+            ["ja", "Japanese ~ Japonés"],
+            ["ru", "Russian ~ Ruso"],
+            ["nl", "Dutch ~ Holandés"],
+            ["tr", "Turkish ~ Turco"],
+            ["pt", "Portuguese ~ Portugues"],
+            ["pl", "Polish ~ Polaco"],
+            ["af", "Afrikaans ~ Afrikaans"],
+            ["de", "German ~ Alemán"],
+            ["ar", "Arab ~ Arabe"],
+            ["ca", "Catalan ~ Catalán"],
+            ["gl", "Galician ~ Gallego"],
+            ["iw", "Hebrew ~ Hebreo"]
+         ];
+
+         // aqui van los idiomas
+         browser.contextMenus.create({
+            id: "languages_Translator_Elinv",
+            title: "Languages (Quick selection)",
+            contexts: ["all"]
+         });
+
+         // recorrer array de idiomas
+         let tot = idiDestArrSelRap.length;
+         for (let i = 0; i < tot; i++) {
+            browser.contextMenus.create({
+               id: "iTE_" + idiDestArrSelRap[i][1],
+               parentId: "languages_Translator_Elinv",
+               title: "" + idiDestArrSelRap[i][1],
+               contexts: ["all"],
+               type: "radio",
+               onclick: function () {
+                  codigoDestinoVar = idiDestArrSelRap[i][0];
+                  idiomaDestinoVar = idiDestArrSelRap[i][1];
+                  // sin selección rapida
+                  let sinSel = "sinSel";
+                  if (idiDestArrSelRap[i][0] == sinSel){
+                     seletRapida = false;
+                  }else{
+                     seletRapida = true;
+                  }
+               }
+            });
+         }
          // Elemento visible solo si existe selección
          // Multitraducción
          chrome.contextMenus.create({
@@ -440,7 +494,7 @@ let tradElinvSpace = (function () {
                contexts: ["selection"]
             },
             onCreated
-         );
+         );         
       })();
       // ---------------------------------------------------
 
@@ -966,9 +1020,9 @@ let tradElinvSpace = (function () {
                urlElinv =
                   "https://que-significa.com/significado.php?termino=" + texto;
                break;
-         } 
+         }
          // Producimos la información
-         try { 
+         try {
             function onCreated(tab) {
                //console.log(`Created new tab: ${tab.id}`)
             }

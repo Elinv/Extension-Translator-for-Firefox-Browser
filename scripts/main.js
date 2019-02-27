@@ -218,18 +218,15 @@ let tradElinvSpace = (function () {
                docA.getAttribute("type").toLowerCase() == cfg.txt)) {
                   let result = opc === 0 ? docA.value.substring(docA.selectionStart, docA.selectionEnd) : docA;
                   return result;
+               // si es un iframe
             } else if (docA.nodeName == cfg.ifr) {
                // si tenemos el id del iframe
                var ifr = document.getElementById(document.activeElement.id);
                // si el id es nulo vemos por el name[0]
                if(!ifr){
                   ifr = document.getElementsByName(document.activeElement.name)[0];
-                  // si aun sigue null o undefined
-                  if(!ifr){
-                     ifr = docA;
-                  }
                }
-               let txtPro = ifr.contentDocument.getSelection().toString();
+               let txtPro = ifr.contentDocument.getSelection().toString();               
                if (txtPro.length > 0) {
                   let result = opc === 0 ? txtPro : ifr;
                   return result;
@@ -240,8 +237,19 @@ let tradElinvSpace = (function () {
                      (iDocAE.nodeName == cfg.inp &&
                         iDocAE.getAttribute("type").toLowerCase() == cfg.txt)
                   ) {
-                     let result = opc === 0 ? iDocAE.value.substring(iDocAE.selectionStart,iDocAE.selectionEnd) : iDocAE;
+                     // texto seleccionado en control textarea de iframe
+                     let textSelIfr = iDocAE.value.substring(iDocAE.selectionStart,iDocAE.selectionEnd);
+                     let result = opc === 0 ? textSelIfr : iDocAE;
                      return result;
+                  }
+                  // si es otro iframe adentro
+                  if (iDocAE.nodeName == cfg.ifr){
+                     let ifrOtro = iDocAE.contentDocument;
+                     let txtIfrOtro = iDocAE.contentDocument.getSelection().toString();
+                     if (txtIfrOtro.length > 0) {
+                        let result = opc === 0 ? txtIfrOtro : iDocAE;
+                        return result;
+                     }
                   }
                }
             } else {
@@ -250,28 +258,30 @@ let tradElinvSpace = (function () {
             }
          }
       };`;
+
+
       // ------------------------------------------------------
       // MARK: insertText
       var insertText = `
          function insertText(input, text) {
             if (input == undefined) {
-            return;
+               return;
             }
             var scrollPos = input.scrollTop;
             var pos = 0;
             var browser = ((input.selectionStart || input.selectionStart == '0') ?
             'ff' : (document.selection ? 'ie' : false));
             if (browser == 'ff') {
-            pos = input.selectionStart
+               pos = input.selectionStart
             };
             var front = (input.value).substring(0, pos);
             var back = (input.value).substring(pos, input.value.length);
             input.value = front + "✅" + text + "🌀️" + back;
             pos = pos + text.length;
             if (browser == 'ff') {
-            input.selectionStart = pos;
-            input.selectionEnd = pos;
-            input.focus();
+               input.selectionStart = pos;
+               input.selectionEnd = pos;
+               input.focus();
             }
             input.scrollTop = scrollPos;
          }
@@ -696,7 +706,7 @@ let tradElinvSpace = (function () {
                     // aquí los elementos previamente seleccionados
                     ${gSE}
                     var sel = gSE(0);
-                    console.log(sel.rangeCount);
+                    //console.log(sel.rangeCount);
                      if (sel.rangeCount) {
                         // total de elementos
                         var tot = sel.rangeCount;                

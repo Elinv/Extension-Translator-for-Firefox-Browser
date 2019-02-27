@@ -224,6 +224,10 @@ let tradElinvSpace = (function () {
                // si el id es nulo vemos por el name[0]
                if(!ifr){
                   ifr = document.getElementsByName(document.activeElement.name)[0];
+                  // si aun sigue null o undefined
+                  if(!ifr){
+                     ifr = docA;
+                  }
                }
                let txtPro = ifr.contentDocument.getSelection().toString();
                if (txtPro.length > 0) {

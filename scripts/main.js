@@ -219,7 +219,12 @@ let tradElinvSpace = (function () {
                   let result = opc === 0 ? docA.value.substring(docA.selectionStart, docA.selectionEnd) : docA;
                   return result;
             } else if (docA.nodeName == cfg.ifr) {
+               // si tenemos el id del iframe
                var ifr = document.getElementById(document.activeElement.id);
+               // si el id es nulo vemos por el name[0]
+               if(!ifr){
+                  ifr = document.getElementsByName(document.activeElement.name)[0];
+               }
                let txtPro = ifr.contentDocument.getSelection().toString();
                if (txtPro.length > 0) {
                   let result = opc === 0 ? txtPro : ifr;

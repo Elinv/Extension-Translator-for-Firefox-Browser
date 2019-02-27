@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "__MSG_extensionNombre__",
     "description": "__MSG_extensionDescripcion__",
-    "version": "3.5",
+    "version": "4.0",
     "author": "Elinv",
     "default_locale": "en",
     "icons": {

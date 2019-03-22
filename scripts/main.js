@@ -7,7 +7,6 @@
     let winIdTabDestino;
     // variables globales contienen las letras de los idiomas
     let codigoDestinoVar = '';
-    let idiomaDestinoVar = '';
     let seletRapida = false;
 
     // ---------------------------------------------------
@@ -159,14 +158,12 @@
                 // hallamos el nombre del lenguaje del navegador en base a su clave
                 for (prop in idiomasDestinoArr) {
                     if (idiomasDestinoArr[prop][0] === 'es') {
-                        idiomaDestinoVar = idiomasDestinoArr[prop][1];
                         break;
                     }
                 }
             } else {
                 // sino selección del usuario
                 codigoDestinoVar = idiomasDestinoArr[i][0];
-                idiomaDestinoVar = idiomasDestinoArr[i][1];
             }
         });
     }
@@ -454,7 +451,6 @@
                     type: 'radio',
                     onclick: function() {
                         codigoDestinoVar = idiDestArrSelRap[i][0];
-                        idiomaDestinoVar = idiDestArrSelRap[i][1];
                         // sin selección rapida
                         const sinSel = 'sinSel';
                         if (idiDestArrSelRap[i][0] == sinSel) {
